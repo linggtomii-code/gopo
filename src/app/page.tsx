@@ -309,7 +309,7 @@ export default function LandingPage() {
 >
   <div className="w-full">
     <img
-      src="/images/sinergisasi2.png"
+      src="/images/sinergisasi12.png"
       alt="Ilustrasi Hero Sinergisasi"
       className="w-full h-auto object-contain drop-shadow-2xl scale-110 lg:scale-125 xl:scale-135"
     />

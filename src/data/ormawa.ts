@@ -76,40 +76,321 @@ export const ORMAWA_LIST: Ormawa[] = [
   },
 
   // ============================================
-  // LPM Paradigma - Lembaga Pers Mahasiswa
+  // HMMB - Himpunan Mahasiswa Manajemen Bisnis
   // ============================================
   {
-    id: "lpm-paradigma",
-    name: "Lembaga Pers Mahasiswa Paradigma",
-    logo: "/logos/LPM.png",
-    shortName: "LPM Paradigma",
-    type: "LPM",
-    tagline: "Pers Kampus, Takkan Mampus",
-    description: "Lembaga Pers Mahasiswa (LPM) Paradigma adalah organisasi mahasiswa yang bergerak di bidang jurnalistik dan menjadi salah satu media informasi di lingkungan kampus.",
-    focusAreas: ["Komunikasi, Media & Jurnalistik"],
+    id: "hmmb",
+    name: "Himpunan Mahasiswa Manajemen Bisnis",
+    shortName: "HMMB",
+    logo: "/logos/HMMB.png",
+    type: "HMJ",
+    tagline: "HMMB, Dahsyat (3x)",
+    description: "Himpunan Mahasiswa Manajemen Bisnis (HMMB) Politeknik Negeri Batam merupakan organisasi mahasiswa yang menjadi wadah bagi mahasiswa/i Jurusan Manajemen Bisnis untuk berkembang, berkolaborasi, dan menyalurkan aspirasi.",
+    focusAreas: ["Kepemimpinan & Organisasi", "Akademik & Pendidikan", "Sosial & Pengabdian", "Komunikasi, Media & Jurnalistik", "Advokasi & Representasi Mahasiswa"],
     uniqueCharacteristics: [
-      "Berbasis Jurnalistik (menulis berita, artikel, dan opini menggunakan prinsip jurnalistik)",
-      "Menjadi media alternatif bagi mahasiswa kampus",
-      "Ruang berekspresi mahasiswa"
+      "Berorientasi pada Pengembangan Mahasiswa",
+      "Solid dan Kolaboratif",
+      "Aktif, Kreatif, dan Adaptif"
     ],
-    flagshipPrograms: [
-      "Lensa Paradigma",
-      "Creative Workshop with LPM",
-      "Spill Polibatam"
-    ],
-    gallery: ["/gallery/lpm/kegiatan-1.jpg", "/gallery/lpm/kegiatan-2.jpg", "/gallery/lpm/kegiatan-3.jpg", "/gallery/lpm/kegiatan-4.jpg"],
+    flagshipPrograms: ["Pengaderan Jurusan Manajemen Bisnis (PJMB)", "Business Agent's Leading Competition (BALANCE)"],
+    gallery: ["/gallery/hmmb/kegiatan-1.png", "/gallery/hmmb/kegiatan-2.jpg", "/gallery/hmmb/kegiatan-3.jpeg", "/gallery/hmmb/kegiatan-4.jpg"],
     skills: {
-      publicSpeaking: 6,
-      communication: 10,
-      teamwork: 6,
-      design: 9,
-      contentCreation: 10,
-      research: 9
+      leadership: 8,
+      publicSpeaking: 8,
+      communication: 9,
+      teamwork: 9,
+      eventManagement: 9,
+      problemSolving: 8,
+      networking: 9,
+      design: 8,
+      contentCreation: 8,
+      entrepreneurship: 10,
+      research: 8,
+      technicalSkill: 8,
+      creativity: 8,
+      organizationManagement: 8
     },
-    suitableFor: ["Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka belajar & berdiskusi", "Suka berkarya & berkreasi", "Tertarik seni, media & publikasi"],
-    instagram: "@lpmpolibatam",
-    linktree: "https://linktr.ee/lpmparadigma25",
-    contactPerson: "+62 895-3915-4298 (Najwan Shafa)"
+    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka belajar & berdiskusi", "Tertarik bisnis & kewirausahaan", "Suka membantu & berkontribusi untuk masyarakat"],
+    achievements: ["Juara 4 PPK ORMAWA Nasional - 2025"],
+    instagram: "@hmmbpolibatam",
+    tiktok: "@hmmbpolibatam",
+    youtube: "HMMB Polibatam",
+    contactPerson: "+62 821-7071-254 (HMMB Contact)"
+  },
+
+  // ============================================
+  // HMTI - Himpunan Mahasiswa Teknik Informatika
+  // ============================================
+  {
+    id: "hmti",
+    name: "Himpunan Mahasiswa Teknik Informatika",
+    logo: "/logos/HMTI.png",
+    shortName: "HMTI",
+    type: "HMJ",
+    tagline: "Informatika Kita Beda, Informatika Kita Satu",
+    description: "Himpunan Mahasiswa Teknik Informatika (HMTI) adalah ormawa yang menjadi wadah bagi seluruh mahasiswa Jurusan Teknik Informatika di Politeknik Negeri Batam.",
+    focusAreas: ["Kepemimpinan & Organisasi", "Akademik & Pendidikan", "Teknologi & Digital", "Teknik & Keahlian Terapan", "Advokasi & Representasi Mahasiswa"],
+    uniqueCharacteristics: [
+      "Fokus pada pengembangan kepemimpinan",
+      "Menjadi rumah bagi warga teknik informatika",
+      "Raih sema bersama, bersatu, berhimpun"
+    ],
+    flagshipPrograms: ["HMTI Fair", "Pengaderan HMTI", "Pengabdian Eksternal"],
+    gallery: ["/gallery/hmti/kegiatan-1.jpeg", "/gallery/hmti/kegiatan-2.jpeg", "/gallery/hmti/kegiatan-3.jpeg", "/gallery/hmti/kegiatan-4.jpeg", "/gallery/hmti/kegiatan-5.jpeg", "/gallery/hmti/kegiatan-6.jpeg", "/gallery/hmti/kegiatan-7.jpeg", "/gallery/hmti/kegiatan-8.jpeg"],
+    skills: {
+      leadership: 7,
+      publicSpeaking: 5,
+      communication: 6,
+      teamwork: 7,
+      eventManagement: 7,
+      problemSolving: 8,
+      networking: 8,
+      design: 6,
+      contentCreation: 6,
+      entrepreneurship: 6,
+      research: 7,
+      technicalSkill: 10,
+      creativity: 6,
+      organizationManagement: 7
+    },
+    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka belajar & berdiskusi", "Tertarik teknologi & hal teknis", "Suka berkarya & berkreasi", "Tertarik bisnis & kewirausahaan", "Suka membantu & berkontribusi untuk masyarakat", "Tertarik seni, media & publikasi"],
+    achievements: ["Juara Pekan Olahraga Mahasiswa 2025", "Juara Futsal Ormawa Cup 2023", "Hima Terbaik 2025"],
+    instagram: "@hmtipolibatam",
+    contactPerson: "+62 819-9214-1464 (Sirojul Afkar Pradan)"
+  },
+
+  // ============================================
+  // HME - Himpunan Mahasiswa Elektro
+  // ============================================
+  {
+    id: "hme",
+    name: "Himpunan Mahasiswa Elektro",
+    logo: "/logos/HME.png",
+    shortName: "HME",
+    type: "HMJ",
+    tagline: "Salam Kompak = Kompak Selalu",
+    description: "Himpunan Mahasiswa Elektro (HME) Politeknik Negeri Batam merupakan organisasi kemahasiswaan yang menaungi seluruh mahasiswa Jurusan Teknik Elektro.",
+    focusAreas: ["Kepemimpinan & Organisasi", "Akademik & Pendidikan", "Teknologi & Digital", "Teknik & Keahlian Terapan", "Sosial & Pengabdian", "Olahraga"],
+    departments: ["PENMU", "KOMINFO", "PSDM", "SOSMA"],
+    uniqueCharacteristics: [
+      "Memiliki 4 departemen dengan fokus jelas (PENMU, KOMINFO, PSDM, SOSMA)",
+      "Menjadi wadah aspirasi mahasiswa Elektro yang inklusif dan responsif",
+      "Berorientasi pada regenerasi berkelanjutan dengan mempersiapkan kader-kader kompeten"
+    ],
+    flagshipPrograms: ["Teknologi Tepat Guna", "Hme Fair", "Program Tri Dharma"],
+    gallery: ["/gallery/hme/kegiatan-1.jpg", "/gallery/hme/kegiatan-2.png", "/gallery/hme/kegiatan-3.jpg"],
+    skills: {
+      leadership: 7,
+      publicSpeaking: 5,
+      communication: 5,
+      teamwork: 7,
+      eventManagement: 6,
+      problemSolving: 7,
+      networking: 6,
+      technicalSkill: 10,
+      creativity: 6,
+      organizationManagement: 7
+    },
+    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka belajar & berdiskusi", "Tertarik teknologi & hal teknis", "Suka berkarya & berkreasi", "Tertarik bisnis & kewirausahaan", "Suka membantu & berkontribusi untuk masyarakat", "Tertarik olahraga & aktivitas fisik", "Tertarik seni, media & publikasi"],
+    instagram: "@hme_polibatam",
+    linktree: "https://linktr.ee/hmepolbat",
+    contactPerson: "+62 853-6669-3212 (Fahmi A)"
+  },
+
+  // ============================================
+  // HMM - Himpunan Mahasiswa Mesin
+  // ============================================
+  {
+    id: "hmm",
+    name: "Himpunan Mahasiswa Mesin",
+    logo: "/logos/HMM.png",
+    shortName: "HMM",
+    type: "HMJ",
+    tagline: "Mesin Mesin Mesin, Teknik Mesin We Are Solid",
+    description: "Himpunan Mahasiswa Mesin (HMM) Politeknik Negeri Batam merupakan organisasi mahasiswa yang menjadi wadah bagi mahasiswa Jurusan Teknik Mesin untuk berkembang, berkolaborasi, serta menyalurkan aspirasi, minat, dan bakat.",
+    focusAreas: ["Kepemimpinan & Organisasi", "Akademik & Pendidikan", "Teknik & Keahlian Terapan", "Sosial & Pengabdian", "Advokasi & Representasi Mahasiswa"],
+    uniqueCharacteristics: [
+      "Mengembangkan kemampuan akademik dan keterampilan mahasiswa Teknik Mesin",
+      "Jadi wadah untuk belajar, berorganisasi, dan mengembangkan minat serta bakat",
+      "Membangun solidaritas dan kebersamaan sebagai keluarga besar Teknik Mesin"
+    ],
+    flagshipPrograms: ["Bina Desa", "HMM Fest & Fair"],
+    gallery: ["/gallery/hmm/kegiatan-1.jpeg", "/gallery/hmm/kegiatan-2.jpeg", "/gallery/hmm/kegiatan-3.jpeg", "/gallery/hmm/kegiatan-4.jpeg"],
+    skills: {
+      leadership: 9,
+      publicSpeaking: 7,
+      communication: 9,
+      teamwork: 9,
+      eventManagement: 9,
+      problemSolving: 9,
+      networking: 7,
+      technicalSkill: 8,
+      creativity: 6,
+      organizationManagement: 7
+    },
+    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka belajar & berdiskusi", "Tertarik teknologi & hal teknis", "Tertarik bisnis & kewirausahaan", "Suka membantu & berkontribusi untuk masyarakat", "Tertarik olahraga & aktivitas fisik", "Tertarik seni, media & publikasi"],
+    instagram: "@hmmpolbat",
+    linktree: "https://linktr.ee/hmmpolbat26",
+    contactPerson: "+62 887-7427-896 (Fattuh Fazariah)"
+  },
+
+  // ============================================
+  // IMMPB - Ikatan Mahasiswa Muslim Polibatam
+  // ============================================
+  {
+    id: "immpb",
+    name: "Ikatan Mahasiswa Muslim Politeknik Negeri Batam",
+    logo: "/logos/IMMPB.png",
+    shortName: "IMMPB",
+    type: "UKM",
+    tagline: "Tiada Hari Tanpa Amal",
+    description: "Ikatan Mahasiswa Muslim Politeknik Negeri Batam (IMMPB) adalah wadah bagi mahasiswa Muslim untuk belajar, bertumbuh, berkarya, dan berkontribusi bersama.",
+    focusAreas: ["Kepemimpinan & Organisasi", "Akademik & Pendidikan", "Sosial & Pengabdian", "Seni & Kreativitas", "Keagamaan & Kerohanian"],
+    uniqueCharacteristics: [
+      "Membawa nilai-nilai Islam dalam kegiatan dan kehidupan kampus",
+      "Menjadi ruang untuk mempererat ukhuwah dan menambah wawasan keislaman",
+      "Mengajak mahasiswa untuk aktif dalam kegiatan yang positif dan bermanfaat"
+    ],
+    flagshipPrograms: ["Semarak Ramadan", "Perayaan Hari Besar Islam (PHBI)", "IMMPB Islamic Festival (IFES)", "Polibatam Berdzikir"],
+    gallery: ["/gallery/immpb/kegiatan-1.jpg", "/gallery/immpb/kegiatan-2.jpg", "/gallery/immpb/kegiatan-3.jpg", "/gallery/immpb/kegiatan-4.jpeg", "/gallery/immpb/kegiatan-5.jpeg"],
+    skills: {
+      leadership: 8,
+      publicSpeaking: 8,
+      communication: 8,
+      teamwork: 9,
+      eventManagement: 9,
+      problemSolving: 8,
+      networking: 8,
+      design: 5,
+      contentCreation: 6,
+      creativity: 7,
+      organizationManagement: 8,
+      social: 10
+    },
+    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka belajar & berdiskusi", "Suka membantu & berkontribusi untuk masyarakat"],
+    achievements: [
+      "Program Pemberdayaan Masyarakat Desa (P2MD) – 2022",
+      "Publikasi ORMAWA Teraktif, Terkreatif, dan Terinovatif – 2025",
+      "Juara 2 Voli Ormawa Cup – 2025"
+    ],
+    instagram: "@immpbpolibatam",
+    tiktok: "@immpbpolibatam",
+    youtube: "@immpbpolibatam",
+    contactPerson: "+62 812-6191-1413 (Rivana Alwarid)"
+  },
+
+  // ============================================
+  // PD El-Shaddai - Persekutuan Doa El-Shaddai
+  // ============================================
+  {
+    id: "pd-elshaddai",
+    name: "Persekutuan Doa El-Shaddai",
+    shortName: "Pd. El-Shaddai",
+    logo: "/logos/EL-SHADAI.png",
+    type: "UKM",
+    tagline: "El-Shaddai, In The Hand Of Warrior",
+    description: "PD. EL-SHADDAI merupakan organisasi kristen di Politeknik Negeri Batam yang melakukan berbagai pelayanan di kampus, dimana fokus utamanya adalah melayani mahasiswa kristen dan juga masyarakat.",
+    focusAreas: ["Keagamaan & Kerohanian", "Kepemimpinan & Organisasi", "Sosial & Pengabdian", "Seni & Kreativitas"],
+    uniqueCharacteristics: [
+      "Fokus pada pelayanan untuk mahasiswa kristen di Polibatam",
+      "Melakukan banyak aktivitas sosial dan berbagai pelayanan dalam ruang lingkup kampus dan masyarakat",
+      "Menjadi wadah bagi mahasiswa kristen untuk mengasah skill bernyanyi, musik, kepemimpinan, komunikasi dan masih banyak lagi"
+    ],
+    flagshipPrograms: ["Perayaan Paskah", "Discipleship Gathering", "EL-SHADDAI COMPETITION", "Penyambutan Mahasiswa Baru", "El-Shaddai Mission Trip", "Pengaderan El-Shaddai", "Perayaan Natal"],
+    gallery: ["/gallery/pd-elshaddai/kegiatan-1.jpg", "/gallery/pd-elshaddai/kegiatan-2.jpg", "/gallery/pd-elshaddai/kegiatan-3.jpg", "/gallery/pd-elshaddai/kegiatan-4.jpg"],
+    skills: {
+      leadership: 8,
+      publicSpeaking: 8,
+      communication: 8,
+      teamwork: 9,
+      eventManagement: 9,
+      problemSolving: 8,
+      networking: 7,
+      design: 6,
+      contentCreation: 6,
+      creativity: 8,
+      organizationManagement: 7,
+      social: 10
+    },
+    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka belajar & berdiskusi", "Suka membantu & berkontribusi untuk masyarakat"],
+    instagram: "@pd_elshaddai",
+    contactPerson: "089654303712 (Irene)"
+  },
+
+  // ============================================
+  // BLUG - Batam Linux User Group
+  // ============================================
+  {
+    id: "blug",
+    name: "Batam Linux User Group",
+    logo: "/logos/BLUG.png",
+    shortName: "BLUG",
+    type: "UKM",
+    tagline: "Indonesia, Go Open Source",
+    description: "Batam Linux User Group (BLUG) adalah komunitas yang menjadi wadah bagi mahasiswa dan masyarakat yang memiliki ketertarikan pada Linux, teknologi, open source, serta pengembangan keterampilan di bidang teknologi informasi.",
+    focusAreas: ["Kepemimpinan & Organisasi", "Akademik & Pendidikan", "Teknologi & Digital", "Teknik & Keahlian Terapan", "Komunikasi, Media & Jurnalistik"],
+    uniqueCharacteristics: [
+      "Berfokus pada Linux, open source, dan pengembangan keterampilan teknologi informasi",
+      "Menjadi wadah belajar dan berbagi pengetahuan teknologi melalui workshop, diskusi, serta kegiatan praktis",
+      "Mendorong kolaborasi, eksplorasi teknologi, dan pengembangan kemampuan mahasiswa melalui komunitas yang terbuka dan inklusif"
+    ],
+    flagshipPrograms: ["Blugcamp", "Belajar dan Berbagi", "Open Source Competition", "Webinar", "Blug Gathering", "Blug Goes To School"],
+    gallery: ["/gallery/blug/kegiatan-1.jpg", "/gallery/blug/kegiatan-2.jpg", "/gallery/blug/kegiatan-3.jpg", "/gallery/blug/kegiatan-4.jpg", "/gallery/blug/kegiatan-5.jpg", "/gallery/blug/kegiatan-6.jpg", "/gallery/blug/kegiatan-7.jpg", "/gallery/blug/kegiatan-8.jpg", "/gallery/blug/kegiatan-9.jpg", "/gallery/blug/kegiatan-10.jpg"],
+    skills: {
+      leadership: 8,
+      publicSpeaking: 8,
+      communication: 8,
+      teamwork: 8,
+      eventManagement: 8,
+      problemSolving: 8,
+      networking: 8,
+      design: 8,
+      contentCreation: 6,
+      research: 9,
+      technicalSkill: 10,
+      organizationManagement: 8,
+      bahasa: 8,
+      creativity: 7
+    },
+    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka belajar & berdiskusi", "Tertarik teknologi & hal teknis", "Suka berkarya & berkreasi"],
+    instagram: "@batamlinux",
+    tiktok: "@batamlinuxusergroup",
+    youtube: "@batamlinux9734",
+    googleSite: "https://blug.polibatam.ac.id/",
+    contactPerson: "082387593452 (Terra)"
+  },
+
+  // ============================================
+  // MAPALA - Mahasiswa Pencinta Alam
+  // ============================================
+  {
+    id: "mapala",
+    name: "Mahasiswa Pencinta Alam Politeknik Negeri Batam",
+    shortName: "MAPALA",
+    logo: "/logos/MAPALA.png",
+    type: "UKM",
+    tagline: "Salam Lestari!",
+    description: "Mapala adalah unit kegiatan mahasiswa yang bergerak di bidang alam. Memiliki 4 divisi utama yaitu Gunung Hutan, Susur Pantai, Lingkungan Hidup, dan Panjat.",
+    focusAreas: ["Kepemimpinan & Organisasi", "Teknik & Keahlian Terapan", "Lingkungan & Petualangan"],
+    uniqueCharacteristics: [
+      "Fokus pada pengembangan kepemimpinan dalam organisasi.",
+      "Fokus pada pengembangan kemampuan mahasiswa sesuai divisi yang dimiliki.",
+      "Menjadi wadah mahasiswa untuk mengasah bakat dan potensi, terutama di bidang kegiatan alam terbuka."
+    ],
+    flagshipPrograms: ["Aksi Hijau", "Aksi Bersih", "Latihan Divisi"],
+    gallery: ["/gallery/mapala/kegiatan-1.jpg", "/gallery/mapala/kegiatan-2.jpg", "/gallery/mapala/kegiatan-3.jpg", "/gallery/mapala/kegiatan-4.jpg"],
+    skills: {
+      leadership: 6,
+      communication: 8,
+      teamwork: 8,
+      problemSolving: 9,
+      networking: 8,
+      technicalSkill: 8,
+      physicalFitness: 9
+    },
+    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membantu & berkontribusi untuk masyarakat", "Tertarik olahraga & aktivitas fisik"],
+    instagram: "@mapala_polibatam",
+    contactPerson: "+62 851-6141-7488 (Yusuf)"
   },
 
   // ============================================
@@ -160,289 +441,81 @@ export const ORMAWA_LIST: Ormawa[] = [
   },
 
   // ============================================
-  // HME - Himpunan Mahasiswa Elektro
+  // LPM Paradigma - Lembaga Pers Mahasiswa
   // ============================================
   {
-    id: "hme",
-    name: "Himpunan Mahasiswa Elektro",
-    logo: "/logos/HME.png",
-    shortName: "HME",
-    type: "HMJ",
-    tagline: "Salam Kompak = Kompak Selalu",
-    description: "Himpunan Mahasiswa Elektro (HME) Politeknik Negeri Batam merupakan organisasi kemahasiswaan yang menaungi seluruh mahasiswa Jurusan Teknik Elektro.",
-    focusAreas: ["Kepemimpinan & Organisasi", "Akademik & Pendidikan", "Teknologi & Digital", "Teknik & Keahlian Terapan", "Sosial & Pengabdian", "Olahraga"],
-    departments: ["PENMU", "KOMINFO", "PSDM", "SOSMA"],
+    id: "lpm-paradigma",
+    name: "Lembaga Pers Mahasiswa Paradigma",
+    logo: "/logos/LPM.png",
+    shortName: "LPM Paradigma",
+    type: "LPM",
+    tagline: "Pers Kampus, Takkan Mampus",
+    description: "Lembaga Pers Mahasiswa (LPM) Paradigma adalah organisasi mahasiswa yang bergerak di bidang jurnalistik dan menjadi salah satu media informasi di lingkungan kampus.",
+    focusAreas: ["Komunikasi, Media & Jurnalistik"],
     uniqueCharacteristics: [
-      "Memiliki 4 departemen dengan fokus jelas (PENMU, KOMINFO, PSDM, SOSMA)",
-      "Menjadi wadah aspirasi mahasiswa Elektro yang inklusif dan responsif",
-      "Berorientasi pada regenerasi berkelanjutan dengan mempersiapkan kader-kader kompeten"
+      "Berbasis Jurnalistik (menulis berita, artikel, dan opini menggunakan prinsip jurnalistik)",
+      "Menjadi media alternatif bagi mahasiswa kampus",
+      "Ruang berekspresi mahasiswa"
     ],
-    flagshipPrograms: ["Teknologi Tepat Guna", "Hme Fair", "Program Tri Dharma"],
-    gallery: ["/gallery/hme/kegiatan-1.jpg", "/gallery/hme/kegiatan-2.png", "/gallery/hme/kegiatan-3.jpg"],
+    flagshipPrograms: [
+      "Lensa Paradigma",
+      "Creative Workshop with LPM",
+      "Spill Polibatam"
+    ],
+    gallery: ["/gallery/lpm/kegiatan-1.jpg", "/gallery/lpm/kegiatan-2.jpg", "/gallery/lpm/kegiatan-3.jpg", "/gallery/lpm/kegiatan-4.jpg"],
     skills: {
-      leadership: 7,
-      publicSpeaking: 5,
-      communication: 5,
-      teamwork: 7,
-      eventManagement: 6,
-      problemSolving: 7,
-      networking: 6,
-      technicalSkill: 10,
-      creativity: 6,
-      organizationManagement: 7
-    },
-    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka belajar & berdiskusi", "Tertarik teknologi & hal teknis", "Suka berkarya & berkreasi", "Tertarik bisnis & kewirausahaan", "Suka membantu & berkontribusi untuk masyarakat", "Tertarik olahraga & aktivitas fisik", "Tertarik seni, media & publikasi"],
-    instagram: "@hme_polibatam",
-    linktree: "https://linktr.ee/hmepolbat",
-    contactPerson: "+62 853-6669-3212 (Fahmi A)"
-  },
-
-  // ============================================
-  // HMTI - Himpunan Mahasiswa Teknik Informatika
-  // ============================================
-  {
-    id: "hmti",
-    name: "Himpunan Mahasiswa Teknik Informatika",
-    logo: "/logos/HMTI.png",
-    shortName: "HMTI",
-    type: "HMJ",
-    tagline: "Informatika Kita Beda, Informatika Kita Satu",
-    description: "Himpunan Mahasiswa Teknik Informatika (HMTI) adalah ormawa yang menjadi wadah bagi seluruh mahasiswa Jurusan Teknik Informatika di Politeknik Negeri Batam.",
-    focusAreas: ["Kepemimpinan & Organisasi", "Akademik & Pendidikan", "Teknologi & Digital", "Teknik & Keahlian Terapan", "Advokasi & Representasi Mahasiswa"],
-    uniqueCharacteristics: [
-      "Fokus pada pengembangan kepemimpinan",
-      "Menjadi rumah bagi warga teknik informatika",
-      "Raih sema bersama, bersatu, berhimpun"
-    ],
-    flagshipPrograms: ["HMTI Fair", "Pengaderan HMTI", "Pengabdian Eksternal"],
-    gallery: ["/gallery/hmti/kegiatan-1.jpeg", "/gallery/hmti/kegiatan-2.jpeg", "/gallery/hmti/kegiatan-3.jpeg", "/gallery/hmti/kegiatan-4.jpeg", "/gallery/hmti/kegiatan-5.jpeg", "/gallery/hmti/kegiatan-6.jpeg", "/gallery/hmti/kegiatan-7.jpeg", "/gallery/hmti/kegiatan-8.jpeg"],
-    skills: {
-      leadership: 7,
-      publicSpeaking: 5,
-      communication: 6,
-      teamwork: 7,
-      eventManagement: 7,
-      problemSolving: 8,
-      networking: 8,
-      design: 6,
-      contentCreation: 6,
-      entrepreneurship: 6,
-      research: 7,
-      technicalSkill: 10,
-      creativity: 6,
-      organizationManagement: 7
-    },
-    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka belajar & berdiskusi", "Tertarik teknologi & hal teknis", "Suka berkarya & berkreasi", "Tertarik bisnis & kewirausahaan", "Suka membantu & berkontribusi untuk masyarakat", "Tertarik seni, media & publikasi"],
-    achievements: ["Juara Pekan Olahraga Mahasiswa 2025", "Juara Futsal Ormawa Cup 2023", "Hima Terbaik 2025"],
-    instagram: "@hmtipolibatam",
-    contactPerson: "+62 819-9214-1464 (Sirojul Afkar Pradan)"
-  },
-
-  // ============================================
-  // HMM - Himpunan Mahasiswa Mesin
-  // ============================================
-  {
-    id: "hmm",
-    name: "Himpunan Mahasiswa Mesin",
-    logo: "/logos/HMM.png",
-    shortName: "HMM",
-    type: "HMJ",
-    tagline: "Mesin Mesin Mesin, Teknik Mesin We Are Solid",
-    description: "Himpunan Mahasiswa Mesin (HMM) Politeknik Negeri Batam merupakan organisasi mahasiswa yang menjadi wadah bagi mahasiswa Jurusan Teknik Mesin untuk berkembang, berkolaborasi, serta menyalurkan aspirasi, minat, dan bakat.",
-    focusAreas: ["Kepemimpinan & Organisasi", "Akademik & Pendidikan", "Teknik & Keahlian Terapan", "Sosial & Pengabdian", "Advokasi & Representasi Mahasiswa"],
-    uniqueCharacteristics: [
-      "Mengembangkan kemampuan akademik dan keterampilan mahasiswa Teknik Mesin",
-      "Jadi wadah untuk belajar, berorganisasi, dan mengembangkan minat serta bakat",
-      "Membangun solidaritas dan kebersamaan sebagai keluarga besar Teknik Mesin"
-    ],
-    flagshipPrograms: ["Bina Desa", "HMM Fest & Fair"],
-    gallery: ["/gallery/hmm/kegiatan-1.jpeg", "/gallery/hmm/kegiatan-2.jpeg", "/gallery/hmm/kegiatan-3.jpeg", "/gallery/hmm/kegiatan-4.jpeg"],
-    skills: {
-      leadership: 9,
-      publicSpeaking: 7,
-      communication: 9,
-      teamwork: 9,
-      eventManagement: 9,
-      problemSolving: 9,
-      networking: 7,
-      technicalSkill: 8,
-      creativity: 6,
-      organizationManagement: 7
-    },
-    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka belajar & berdiskusi", "Tertarik teknologi & hal teknis", "Tertarik bisnis & kewirausahaan", "Suka membantu & berkontribusi untuk masyarakat", "Tertarik olahraga & aktivitas fisik", "Tertarik seni, media & publikasi"],
-    instagram: "@hmmpolbat",
-    linktree: "https://linktr.ee/hmmpolbat26",
-    contactPerson: "+62 887-7427-896 (Fattuh Fazariah)"
-  },
-
-  // ============================================
-  // ENERGI - Entrepreneur Generation
-  // ============================================
-  {
-    id: "energi",
-    name: "Entrepreneur Generation",
-    logo: "/logos/ENERGI.png",
-    shortName: "ENERGI",
-    type: "UKM",
-    tagline: "I'M ENTREPRENEUR",
-    description: "Entrepreneur Generation (ENERGI) adalah Unit Kegiatan Mahasiswa di Politeknik Negeri Batam yang menjadi wadah bagi mahasiswa untuk mengembangkan jiwa dan kemampuan kewirausahaan.",
-    focusAreas: ["Kepemimpinan & Organisasi", "Teknologi & Digital", "Teknik & Keahlian Terapan", "Sosial & Pengabdian"],
-    uniqueCharacteristics: [
-      "Fokus pada pengembangan jiwa dan keterampilan kewirausahaan mahasiswa",
-      "Menjadi wadah untuk mengubah ide kreatif dan inovatif menjadi peluang bisnis nyata",
-      "Membangun pengalaman bisnis melalui praktik, pelatihan, kompetisi, dan networking"
-    ],
-    flagshipPrograms: ["EzoBiz Explorer", "Sekolah Kewirausahaan Muda (SKEMA)", "ENERGI Trip to ISNAPURING", "ENERGI On The Go"],
-    gallery: ["/gallery/energi/kegiatan-1.jpg", "/gallery/energi/kegiatan-2.jpg", "/gallery/energi/kegiatan-3.jpg", "/gallery/energi/kegiatan-4.jpg", "/gallery/energi/kegiatan-5.jpg"],
-    skills: {
-      leadership: 8,
-      publicSpeaking: 8,
-      communication: 7,
-      teamwork: 8,
-      eventManagement: 6,
-      problemSolving: 7,
-      networking: 9,
-      design: 6,
-      contentCreation: 6,
-      entrepreneurship: 10,
-      creativity: 8,
-      organizationManagement: 7
-    },
-    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka berkarya & berkreasi", "Tertarik bisnis & kewirausahaan"],
-    instagram: "@energi_polibatam",
-    tiktok: "@energi.polibatam",
-    contactPerson: "+62 882-7717-7941 (Johanes)"
-  },
-
-  // ============================================
-  // IMMPB - Ikatan Mahasiswa Muslim Polibatam
-  // ============================================
-  {
-    id: "immpb",
-    name: "Ikatan Mahasiswa Muslim Politeknik Negeri Batam",
-    logo: "/logos/IMMPB.png",
-    shortName: "IMMPB",
-    type: "UKM",
-    tagline: "Tiada Hari Tanpa Amal",
-    description: "Ikatan Mahasiswa Muslim Politeknik Negeri Batam (IMMPB) adalah wadah bagi mahasiswa Muslim untuk belajar, bertumbuh, berkarya, dan berkontribusi bersama.",
-    focusAreas: ["Kepemimpinan & Organisasi", "Akademik & Pendidikan", "Sosial & Pengabdian", "Seni & Kreativitas", "Keagamaan & Kerohanian"],
-    uniqueCharacteristics: [
-      "Membawa nilai-nilai Islam dalam kegiatan dan kehidupan kampus",
-      "Menjadi ruang untuk mempererat ukhuwah dan menambah wawasan keislaman",
-      "Mengajak mahasiswa untuk aktif dalam kegiatan yang positif dan bermanfaat"
-    ],
-    flagshipPrograms: ["Semarak Ramadan", "Perayaan Hari Besar Islam (PHBI)", "IMMPB Islamic Festival (IFES)", "Polibatam Berdzikir"],
-    gallery: ["/gallery/immpb/kegiatan-1.jpg", "/gallery/immpb/kegiatan-2.jpg", "/gallery/immpb/kegiatan-3.jpg", "/gallery/immpb/kegiatan-4.jpeg", "/gallery/immpb/kegiatan-5.jpeg"],
-    skills: {
-      leadership: 8,
-      publicSpeaking: 8,
-      communication: 8,
-      teamwork: 9,
-      eventManagement: 9,
-      problemSolving: 8,
-      networking: 8,
-      design: 5,
-      contentCreation: 6,
-      creativity: 7,
-      organizationManagement: 8,
-      social: 10
-    },
-    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka belajar & berdiskusi", "Suka membantu & berkontribusi untuk masyarakat"],
-    achievements: [
-      "Program Pemberdayaan Masyarakat Desa (P2MD) – 2022",
-      "Publikasi ORMAWA Teraktif, Terkreatif, dan Terinovatif – 2025",
-      "Juara 2 Voli Ormawa Cup – 2025"
-    ],
-    instagram: "@immpbpolibatam",
-    tiktok: "@immpbpolibatam",
-    youtube: "@immpbpolibatam",
-    contactPerson: "+62 812-6191-1413 (Rivana Alwarid)"
-  },
-
-  // ============================================
-  // BLUG - Batam Linux User Group
-  // ============================================
-  {
-    id: "blug",
-    name: "Batam Linux User Group",
-    logo: "/logos/BLUG.png",
-    shortName: "BLUG",
-    type: "UKM",
-    tagline: "Indonesia, Go Open Source",
-    description: "Batam Linux User Group (BLUG) adalah komunitas yang menjadi wadah bagi mahasiswa dan masyarakat yang memiliki ketertarikan pada Linux, teknologi, open source, serta pengembangan keterampilan di bidang teknologi informasi.",
-    focusAreas: ["Kepemimpinan & Organisasi", "Akademik & Pendidikan", "Teknologi & Digital", "Teknik & Keahlian Terapan", "Komunikasi, Media & Jurnalistik"],
-    uniqueCharacteristics: [
-      "Berfokus pada Linux, open source, dan pengembangan keterampilan teknologi informasi",
-      "Menjadi wadah belajar dan berbagi pengetahuan teknologi melalui workshop, diskusi, serta kegiatan praktis",
-      "Mendorong kolaborasi, eksplorasi teknologi, dan pengembangan kemampuan mahasiswa melalui komunitas yang terbuka dan inklusif"
-    ],
-    flagshipPrograms: ["Blugcamp", "Belajar dan Berbagi", "Open Source Competition", "Webinar", "Blug Gathering", "Blug Goes To School"],
-    gallery: ["/gallery/blug/kegiatan-1.jpg", "/gallery/blug/kegiatan-2.jpg", "/gallery/blug/kegiatan-3.jpg", "/gallery/blug/kegiatan-4.jpg", "/gallery/blug/kegiatan-5.jpg", "/gallery/blug/kegiatan-6.jpg", "/gallery/blug/kegiatan-7.jpg", "/gallery/blug/kegiatan-8.jpg", "/gallery/blug/kegiatan-9.jpg", "/gallery/blug/kegiatan-10.jpg"],
-    skills: {
-      leadership: 8,
-      publicSpeaking: 8,
-      communication: 8,
-      teamwork: 8,
-      eventManagement: 8,
-      problemSolving: 8,
-      networking: 8,
-      design: 8,
-      contentCreation: 6,
-      research: 9,
-      technicalSkill: 10,
-      organizationManagement: 8,
-      bahasa: 8,
-      creativity: 7
-    },
-    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka belajar & berdiskusi", "Tertarik teknologi & hal teknis", "Suka berkarya & berkreasi"],
-    instagram: "@batamlinux",
-    tiktok: "@batamlinuxusergroup",
-    youtube: "@batamlinux9734",
-    googleSite: "https://blug.polibatam.ac.id/",
-    contactPerson: "082387593452 (Terra)"
-  },
-
-  // ============================================
-  // REKAM - Reka Multimedia
-  // ============================================
-  {
-    id: "rekam",
-    name: "Reka Multimedia",
-    shortName: "REKAM",
-    logo: "/logos/REKAM.png",
-    type: "UKM",
-    tagline: "Camera, Roll, Action!",
-    description: "UKM REKAM Polibatam berfokus pada bidang Broadcasting dan Perfilman. Sampai dengan saat ini REKAM telah memproduksi lebih dari 15 karya film dan aktif diikutkan ke dalam perlombaan tingkat kepulauan riau sampai nasional.",
-    focusAreas: ["Kepemimpinan & Organisasi", "Teknologi & Digital", "Teknik & Keahlian Terapan", "Seni & Kreativitas", "Komunikasi, Media & Jurnalistik"],
-    uniqueCharacteristics: [
-      "Pengembangan skill pada bidang audio visual",
-      "Peningkatan kerjasama dengan internal hingga external Polibatam",
-      "Menyediakan wadah masyarakat umum untuk mengembangkan minat dan bakat di bidang audio visual"
-    ],
-    flagshipPrograms: ["REMAKISM (REKAM Making Short Movie)", "BP (Broadcasting Event Polibatam)", "REKAM Festival"],
-    gallery: ["/gallery/rekam/kegiatan-1.jpg", "/gallery/rekam/kegiatan-2.jpg", "/gallery/rekam/kegiatan-3.jpg", "/gallery/rekam/kegiatan-4.jpg", "/gallery/rekam/kegiatan-5.jpg"],
-    skills: {
-      publicSpeaking: 8,
-      communication: 9,
-      teamwork: 8,
-      eventManagement: 9,
-      networking: 8,
+      publicSpeaking: 6,
+      communication: 10,
+      teamwork: 6,
       design: 9,
       contentCreation: 10,
-      technicalSkill: 9,
-      creativity: 9,
-      problemSolving: 7,
-      organizationManagement: 6
+      research: 9
     },
-    suitableFor: ["Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Tertarik teknologi & hal teknis", "Suka berkarya & berkreasi", "Tertarik seni, media & publikasi"],
-    achievements: [
-      "Collaboration in Audio-Visual Production at Regional Industry Networking Conference (RINC), Singapore Polytechnic - 2026",
-      "Prestasi: ITEBA Competition, Juara 1 Short Movie, 'One More Tomorrow' - 2026",
-      "Festival Film Lampung, Kategori Terfavorit Umum, 'YraengkamLa.inpolibatam' - 2024"
+    suitableFor: ["Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka belajar & berdiskusi", "Suka berkarya & berkreasi", "Tertarik seni, media & publikasi"],
+    instagram: "@lpmpolibatam",
+    linktree: "https://linktr.ee/lpmparadigma25",
+    contactPerson: "+62 895-3915-4298 (Najwan Shafa)"
+  },
+
+  // ============================================
+  // KOP - Komite Olahraga Polibatam
+  // ============================================
+  {
+    id: "kop",
+    name: "Komite Olahraga Polibatam",
+    logo: "/logos/KOP.png",
+    shortName: "KOP",
+    type: "UKM",
+    tagline: "Salam Olahraga, Salam Jaya",
+    description: "Komite Olahraga Polibatam (KOP) adalah organisasi olahraga di lingkungan Polibatam di bawah koordinasi BEM, didirikan pada 11 Juli 2008 oleh Syafrijal.",
+    focusAreas: ["Kepemimpinan & Organisasi", "Akademik & Pendidikan", "Teknik & Keahlian Terapan", "Sosial & Pengabdian", "Olahraga"],
+    uniqueCharacteristics: [
+      "Fokus utama pada bidang olahraga",
+      "Banyak melakukan kegiatan di luar ruangan, terutama di bawah matahari",
+      "Menjadi wadah mahasiswa untuk mengembangkan bakat dan skill menjadi atlet"
     ],
-    instagram: "@rekam.polibatam",
-    youtube: "REKAM Polibatam",
-    contactPerson: "+62 898-4346-682 (Hubungan dan Kerjasama)"
+    flagshipPrograms: ["KOP Sport", "Sport Games", "POM (Pekan Olahraga Mahasiswa)", "KOP E-Sport"],
+    gallery: ["/gallery/kop/kegiatan-1.jpeg", "/gallery/kop/kegiatan-2.jpeg", "/gallery/kop/kegiatan-3.jpeg", "/gallery/kop/kegiatan-4.jpeg", "/gallery/kop/kegiatan-5.jpeg"],
+    skills: {
+      communication: 5,
+      teamwork: 8,
+      eventManagement: 8,
+      problemSolving: 7,
+      networking: 6,
+      technicalSkill: 8,
+      organizationManagement: 8,
+      physicalFitness: 10
+    },
+    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka membantu & berkontribusi untuk masyarakat", "Tertarik olahraga & aktivitas fisik"],
+    achievements: [
+      "Juara Umum Ormawa Cup - 2025",
+      "BPH Aktif yang Mengikuti PORSENI - 2026",
+      "Ormawa Ter On Time - 2025"
+    ],
+    instagram: "@komiteolahragapolibatam",
+    tiktok: "@komiteolahragapolibatam",
+    youtube: "Komite Olahraga Polibatam",
+    contactPerson: "+62 813-7194-0840 (Oyi Febrianti Pasma Saputri)"
   },
 
   // ============================================
@@ -490,157 +563,84 @@ export const ORMAWA_LIST: Ormawa[] = [
   },
 
   // ============================================
-  // KOP - Komite Olahraga Polibatam
+  // ENERGI - Entrepreneur Generation
   // ============================================
   {
-    id: "kop",
-    name: "Komite Olahraga Polibatam",
-    logo: "/logos/KOP.png",
-    shortName: "KOP",
+    id: "energi",
+    name: "Entrepreneur Generation",
+    logo: "/logos/ENERGI.png",
+    shortName: "ENERGI",
     type: "UKM",
-    tagline: "Salam Olahraga, Salam Jaya",
-    description: "Komite Olahraga Polibatam (KOP) adalah organisasi olahraga di lingkungan Polibatam di bawah koordinasi BEM, didirikan pada 11 Juli 2008 oleh Syafrijal.",
-    focusAreas: ["Kepemimpinan & Organisasi", "Akademik & Pendidikan", "Teknik & Keahlian Terapan", "Sosial & Pengabdian", "Olahraga"],
+    tagline: "I'M ENTREPRENEUR",
+    description: "Entrepreneur Generation (ENERGI) adalah Unit Kegiatan Mahasiswa di Politeknik Negeri Batam yang menjadi wadah bagi mahasiswa untuk mengembangkan jiwa dan kemampuan kewirausahaan.",
+    focusAreas: ["Kepemimpinan & Organisasi", "Teknologi & Digital", "Teknik & Keahlian Terapan", "Sosial & Pengabdian"],
     uniqueCharacteristics: [
-      "Fokus utama pada bidang olahraga",
-      "Banyak melakukan kegiatan di luar ruangan, terutama di bawah matahari",
-      "Menjadi wadah mahasiswa untuk mengembangkan bakat dan skill menjadi atlet"
+      "Fokus pada pengembangan jiwa dan keterampilan kewirausahaan mahasiswa",
+      "Menjadi wadah untuk mengubah ide kreatif dan inovatif menjadi peluang bisnis nyata",
+      "Membangun pengalaman bisnis melalui praktik, pelatihan, kompetisi, dan networking"
     ],
-    flagshipPrograms: ["KOP Sport", "Sport Games", "POM (Pekan Olahraga Mahasiswa)", "KOP E-Sport"],
-    gallery: ["/gallery/kop/kegiatan-1.jpeg", "/gallery/kop/kegiatan-2.jpeg", "/gallery/kop/kegiatan-3.jpeg", "/gallery/kop/kegiatan-4.jpeg", "/gallery/kop/kegiatan-5.jpeg"],
-    skills: {
-      communication: 5,
-      teamwork: 8,
-      eventManagement: 8,
-      problemSolving: 7,
-      networking: 6,
-      technicalSkill: 8,
-      organizationManagement: 8,
-      physicalFitness: 10
-    },
-    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka membantu & berkontribusi untuk masyarakat", "Tertarik olahraga & aktivitas fisik"],
-    achievements: [
-      "Juara Umum Ormawa Cup - 2025",
-      "BPH Aktif yang Mengikuti PORSENI - 2026",
-      "Ormawa Ter On Time - 2025"
-    ],
-    instagram: "@komiteolahragapolibatam",
-    tiktok: "@komiteolahragapolibatam",
-    youtube: "Komite Olahraga Polibatam",
-    contactPerson: "+62 813-7194-0840 (Oyi Febrianti Pasma Saputri)"
-  },
-
-  // ============================================
-  // PD El-Shaddai - Persekutuan Doa El-Shaddai
-  // ============================================
-  {
-    id: "pd-elshaddai",
-    name: "Persekutuan Doa El-Shaddai",
-    shortName: "Pd. El-Shaddai",
-    logo: "/logos/EL-SHADAI.png",
-    type: "UKM",
-    tagline: "El-Shaddai, In The Hand Of Warrior",
-    description: "PD. EL-SHADDAI merupakan organisasi kristen di Politeknik Negeri Batam yang melakukan berbagai pelayanan di kampus, dimana fokus utamanya adalah melayani mahasiswa kristen dan juga masyarakat.",
-    focusAreas: ["Keagamaan & Kerohanian", "Kepemimpinan & Organisasi", "Sosial & Pengabdian", "Seni & Kreativitas"],
-    uniqueCharacteristics: [
-      "Fokus pada pelayanan untuk mahasiswa kristen di Polibatam",
-      "Melakukan banyak aktivitas sosial dan berbagai pelayanan dalam ruang lingkup kampus dan masyarakat",
-      "Menjadi wadah bagi mahasiswa kristen untuk mengasah skill bernyanyi, musik, kepemimpinan, komunikasi dan masih banyak lagi"
-    ],
-    flagshipPrograms: ["Perayaan Paskah", "Discipleship Gathering", "EL-SHADDAI COMPETITION", "Penyambutan Mahasiswa Baru", "El-Shaddai Mission Trip", "Pengaderan El-Shaddai", "Perayaan Natal"],
-    gallery: ["/gallery/pd-elshaddai/kegiatan-1.jpg", "/gallery/pd-elshaddai/kegiatan-2.jpg", "/gallery/pd-elshaddai/kegiatan-3.jpg", "/gallery/pd-elshaddai/kegiatan-4.jpg"],
+    flagshipPrograms: ["EzoBiz Explorer", "Sekolah Kewirausahaan Muda (SKEMA)", "ENERGI Trip to ISNAPURING", "ENERGI On The Go"],
+    gallery: ["/gallery/energi/kegiatan-1.jpg", "/gallery/energi/kegiatan-2.jpg", "/gallery/energi/kegiatan-3.jpg", "/gallery/energi/kegiatan-4.jpg", "/gallery/energi/kegiatan-5.jpg"],
     skills: {
       leadership: 8,
       publicSpeaking: 8,
-      communication: 8,
-      teamwork: 9,
-      eventManagement: 9,
-      problemSolving: 8,
-      networking: 7,
+      communication: 7,
+      teamwork: 8,
+      eventManagement: 6,
+      problemSolving: 7,
+      networking: 9,
       design: 6,
       contentCreation: 6,
+      entrepreneurship: 10,
       creativity: 8,
-      organizationManagement: 7,
-      social: 10
+      organizationManagement: 7
     },
-    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka belajar & berdiskusi", "Suka membantu & berkontribusi untuk masyarakat"],
-    instagram: "@pd_elshaddai",
-    contactPerson: "089654303712 (Irene)"
+    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka berkarya & berkreasi", "Tertarik bisnis & kewirausahaan"],
+    instagram: "@energi_polibatam",
+    tiktok: "@energi.polibatam",
+    contactPerson: "+62 882-7717-7941 (Johanes)"
   },
 
   // ============================================
-  // HMMB - Himpunan Mahasiswa Manajemen Bisnis
+  // REKAM - Reka Multimedia
   // ============================================
   {
-    id: "hmmb",
-    name: "Himpunan Mahasiswa Manajemen Bisnis",
-    shortName: "HMMB",
-    logo: "/logos/HMMB.png",
-    type: "HMJ",
-    tagline: "HMMB, Dahsyat (3x)",
-    description: "Himpunan Mahasiswa Manajemen Bisnis (HMMB) Politeknik Negeri Batam merupakan organisasi mahasiswa yang menjadi wadah bagi mahasiswa/i Jurusan Manajemen Bisnis untuk berkembang, berkolaborasi, dan menyalurkan aspirasi.",
-    focusAreas: ["Kepemimpinan & Organisasi", "Akademik & Pendidikan", "Sosial & Pengabdian", "Komunikasi, Media & Jurnalistik", "Advokasi & Representasi Mahasiswa"],
+    id: "rekam",
+    name: "Reka Multimedia",
+    shortName: "REKAM",
+    logo: "/logos/REKAM.png",
+    type: "UKM",
+    tagline: "Camera, Roll, Action!",
+    description: "UKM REKAM Polibatam berfokus pada bidang Broadcasting dan Perfilman. Sampai dengan saat ini REKAM telah memproduksi lebih dari 15 karya film dan aktif diikutkan ke dalam perlombaan tingkat kepulauan riau sampai nasional.",
+    focusAreas: ["Kepemimpinan & Organisasi", "Teknologi & Digital", "Teknik & Keahlian Terapan", "Seni & Kreativitas", "Komunikasi, Media & Jurnalistik"],
     uniqueCharacteristics: [
-      "Berorientasi pada Pengembangan Mahasiswa",
-      "Solid dan Kolaboratif",
-      "Aktif, Kreatif, dan Adaptif"
+      "Pengembangan skill pada bidang audio visual",
+      "Peningkatan kerjasama dengan internal hingga external Polibatam",
+      "Menyediakan wadah masyarakat umum untuk mengembangkan minat dan bakat di bidang audio visual"
     ],
-    flagshipPrograms: ["Pengaderan Jurusan Manajemen Bisnis (PJMB)", "Business Agent's Leading Competition (BALANCE)"],
-    gallery: ["/gallery/hmmb/kegiatan-1.png", "/gallery/hmmb/kegiatan-2.jpg", "/gallery/hmmb/kegiatan-3.jpeg", "/gallery/hmmb/kegiatan-4.jpg"],
+    flagshipPrograms: ["REMAKISM (REKAM Making Short Movie)", "BP (Broadcasting Event Polibatam)", "REKAM Festival"],
+    gallery: ["/gallery/rekam/kegiatan-1.jpg", "/gallery/rekam/kegiatan-2.jpg", "/gallery/rekam/kegiatan-3.jpg", "/gallery/rekam/kegiatan-4.jpg", "/gallery/rekam/kegiatan-5.jpg"],
     skills: {
-      leadership: 8,
       publicSpeaking: 8,
       communication: 9,
-      teamwork: 9,
-      eventManagement: 9,
-      problemSolving: 8,
-      networking: 9,
-      design: 8,
-      contentCreation: 8,
-      entrepreneurship: 10,
-      research: 8,
-      technicalSkill: 8,
-      creativity: 8,
-      organizationManagement: 8
-    },
-    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka belajar & berdiskusi", "Tertarik bisnis & kewirausahaan", "Suka membantu & berkontribusi untuk masyarakat"],
-    achievements: ["Juara 4 PPK ORMAWA Nasional - 2025"],
-    instagram: "@hmmbpolibatam",
-    tiktok: "@hmmbpolibatam",
-    youtube: "HMMB Polibatam",
-    contactPerson: "+62 821-7071-254 (HMMB Contact)"
-  },
-
-  // ============================================
-  // MAPALA - Mahasiswa Pencinta Alam
-  // ============================================
-  {
-    id: "mapala",
-    name: "Mahasiswa Pencinta Alam Politeknik Negeri Batam",
-    shortName: "MAPALA",
-    logo: "/logos/MAPALA.png",
-    type: "UKM",
-    tagline: "Salam Lestari!",
-    description: "Mapala adalah unit kegiatan mahasiswa yang bergerak di bidang alam. Memiliki 4 divisi utama yaitu Gunung Hutan, Susur Pantai, Lingkungan Hidup, dan Panjat.",
-    focusAreas: ["Kepemimpinan & Organisasi", "Teknik & Keahlian Terapan", "Lingkungan & Petualangan"],
-    uniqueCharacteristics: [
-      "Fokus pada pengembangan kepemimpinan dalam organisasi.",
-      "Fokus pada pengembangan kemampuan mahasiswa sesuai divisi yang dimiliki.",
-      "Menjadi wadah mahasiswa untuk mengasah bakat dan potensi, terutama di bidang kegiatan alam terbuka."
-    ],
-    flagshipPrograms: ["Aksi Hijau", "Aksi Bersih", "Latihan Divisi"],
-    gallery: ["/gallery/mapala/kegiatan-1.jpg", "/gallery/mapala/kegiatan-2.jpg", "/gallery/mapala/kegiatan-3.jpg", "/gallery/mapala/kegiatan-4.jpg"],
-    skills: {
-      leadership: 6,
-      communication: 8,
       teamwork: 8,
-      problemSolving: 9,
+      eventManagement: 9,
       networking: 8,
-      technicalSkill: 8,
-      physicalFitness: 9
+      design: 9,
+      contentCreation: 10,
+      technicalSkill: 9,
+      creativity: 9,
+      problemSolving: 7,
+      organizationManagement: 6
     },
-    suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membantu & berkontribusi untuk masyarakat", "Tertarik olahraga & aktivitas fisik"],
-    instagram: "@mapala_polibatam",
-    contactPerson: "+62 851-6141-7488 (Yusuf)"
+    suitableFor: ["Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Tertarik teknologi & hal teknis", "Suka berkarya & berkreasi", "Tertarik seni, media & publikasi"],
+    achievements: [
+      "Collaboration in Audio-Visual Production at Regional Industry Networking Conference (RINC), Singapore Polytechnic - 2026",
+      "Prestasi: ITEBA Competition, Juara 1 Short Movie, 'One More Tomorrow' - 2026",
+      "Festival Film Lampung, Kategori Terfavorit Umum, 'YraengkamLa.inpolibatam' - 2024"
+    ],
+    instagram: "@rekam.polibatam",
+    youtube: "REKAM Polibatam",
+    contactPerson: "+62 898-4346-682 (Hubungan dan Kerjasama)"
   }
 ];
