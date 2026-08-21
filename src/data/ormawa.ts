@@ -58,7 +58,7 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Polbat Fair (PBF)",
       "Gathering Ormawa"
     ],
-    gallery: ["/gallery/bem/kegiatan-1.jpg", "/gallery/bem/kegiatan-2.jpg", "/gallery/bem/kegiatan-3.jpg", "/gallery/bem/kegiatan-4.jpg", "/gallery/bem/kegiatan-5.jpg"],
+    gallery: ["/gallery/bem/kegiatan-1-baru.jpg", "/gallery/bem/kegiatan-2-baru.jpg", "/gallery/bem/kegiatan-3-baru.jpg", "/gallery/bem/kegiatan-4-baru.jpg", "/gallery/bem/kegiatan-5-baru.jpg", "/gallery/bem/kegiatan-6-baru.jpg", "/gallery/bem/kegiatan-7-baru.jpg", "/gallery/bem/kegiatan-8-baru.jpg"],
     skills: {
       leadership: 10,
       publicSpeaking: 9,
@@ -448,7 +448,7 @@ export const ORMAWA_LIST: Ormawa[] = [
     name: "Lembaga Pers Mahasiswa Paradigma",
     logo: "/logos/LPM.png",
     shortName: "LPM Paradigma",
-    type: "LPM",
+    type: "UKM",
     tagline: "Pers Kampus, Takkan Mampus",
     description: "Lembaga Pers Mahasiswa (LPM) Paradigma adalah organisasi mahasiswa yang bergerak di bidang jurnalistik dan menjadi salah satu media informasi di lingkungan kampus.",
     focusAreas: ["Komunikasi, Media & Jurnalistik"],

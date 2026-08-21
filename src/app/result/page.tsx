@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { motion, useReducedMotion } from "framer-motion";
 import {
+  AlertCircle,
   Trophy,
   Medal,
   Award,
@@ -13,7 +14,6 @@ import {
   Globe,
   Target,
   ChevronRight,
-  AlertCircle,
   Sparkles,
 } from "lucide-react";
 import Link from "next/link";
@@ -39,8 +39,7 @@ function OrmawaLogo({ ormawa, size = 48 }: { ormawa?: Ormawa; size?: number }) {
         <Image
           src={ormawa.logo}
           alt={`Logo ${ormawa.name}`}
-          width={size}
-          height={size}
+          fill
           className="object-contain p-1.5"
           onError={() => setFailed(true)}
         />

@@ -24,7 +24,7 @@ function OrmawaLogo({ ormawa, size = 56 }: { ormawa?: Ormawa; size?: number }) {
   return (
     <div className="relative shrink-0 rounded-xl bg-[var(--paper)] border border-[var(--line)] flex items-center justify-center overflow-hidden shadow-sm" style={{ width: size, height: size }}>
       {ormawa?.logo && !failed ? (
-        <Image src={ormawa.logo} alt={`Logo ${ormawa.name}`} width={size} height={size} className="object-contain p-2" onError={() => setFailed(true)} />
+        <Image src={ormawa.logo} alt={`Logo ${ormawa.name}`} fill className="object-contain p-2" onError={() => setFailed(true)} />
       ) : (
         <span className="font-[family-name:var(--font-display)] font-bold text-[var(--orange)]/60" style={{ fontSize: size * 0.32 }}>{initials}</span>
       )}
@@ -129,7 +129,7 @@ export default function ExplorePage() {
                   {/* Tagline */}
                   {ormawa.tagline && (
                     <p className="text-xs font-medium text-[var(--orange)] italic mb-2">
-                      "{ormawa.tagline}"
+                      &ldquo;{ormawa.tagline}&rdquo;
                     </p>
                   )}
 
