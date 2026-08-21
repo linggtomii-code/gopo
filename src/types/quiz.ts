@@ -1,4 +1,11 @@
+// src/types/quiz.ts
 import { Category } from "./ormawa";
+
+export interface Participant {
+  nama: string;
+  nim: string;
+  jurusan: string;
+}
 
 export interface Question {
   id: string;
