@@ -53,10 +53,10 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Ruang bertumbuh bagi mahasiswa – membantu mengembangkan kepemimpinan, komunikasi, dan kemampuan bekerja dalam tim"
     ],
     flagshipPrograms: [
-      "PKKMB & Penyambutan Mahasiswa Baru",
-      "Pengabdian BEM",
-      "Polbat Fair (PBF)",
-      "Gathering Ormawa"
+      "PKKMB & Penyambutan Mahasiswa Baru - Kegiatan untuk menyambut dan membantu mahasiswa baru mengenal lingkungan kampus, budaya akademik, serta kehidupan organisasi di Politeknik Negeri Batam.",
+      "Pengabdian BEM - Kegiatan mahasiswa yang turun langsung ke masyarakat untuk memberikan kontribusi melalui edukasi, aksi sosial, pemberdayaan, dan berbagai kegiatan yang sesuai dengan kebutuhan masyarakat.",
+      "Polibatam Fair (PBF) - Agenda tahunan Politeknik Negeri Batam yang melibatkan seluruh ORMAWA dalam menyelenggarakan berbagai perlombaan untuk mahasiswa. Kegiatan berlangsung kurang lebih selama satu bulan dan dilaksanakan secara offline, dengan kepanitiaan yang bekerja sama dengan pihak manajemen kampus. Rangkaian kegiatan ditutup dengan malam puncak sebagai ajang pengumuman dan apresiasi bagi para pemenang lomba.",
+      "Gathering Ormawa - Kegiatan yang bertujuan mempererat hubungan antar Ormawa, membangun kekompakan, sekaligus menjadi ruang untuk berbagi pengalaman, berdiskusi, dan mengembangkan."
     ],
     gallery: ["/gallery/bem/kegiatan-1-baru.jpg", "/gallery/bem/kegiatan-2-baru.jpg", "/gallery/bem/kegiatan-3-baru.jpg", "/gallery/bem/kegiatan-4-baru.jpg", "/gallery/bem/kegiatan-5-baru.jpg", "/gallery/bem/kegiatan-6-baru.jpg", "/gallery/bem/kegiatan-7-baru.jpg", "/gallery/bem/kegiatan-8-baru.jpg"],
     skills: {
@@ -92,7 +92,10 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Solid dan Kolaboratif",
       "Aktif, Kreatif, dan Adaptif"
     ],
-    flagshipPrograms: ["Pengaderan Jurusan Manajemen Bisnis (PJMB)", "Business Agent's Leading Competition (BALANCE)"],
+    flagshipPrograms: [
+  "Pengaderan Jurusan Manajemen Bisnis (PJMB) - Kegiatan menyambut mahasiswa/i baru Manajemen Bisnis.",
+  "Business Agent's Leading Competition (BALANCE) - Perlombaan akademik yang diselenggarakan setiap tahun dengan skala Nasional."
+],
     gallery: ["/gallery/hmmb/kegiatan-1.png", "/gallery/hmmb/kegiatan-2.jpg", "/gallery/hmmb/kegiatan-3.jpeg", "/gallery/hmmb/kegiatan-4.jpg"],
     skills: {
       leadership: 8,
@@ -135,7 +138,11 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Menjadi rumah bagi warga teknik informatika",
       "Raih sema bersama, bersatu, berhimpun"
     ],
-    flagshipPrograms: ["HMTI Fair", "Pengaderan HMTI", "Pengabdian Eksternal"],
+    flagshipPrograms: [
+  "HMTI Fair - Kegiatan perlombaan dan hiburan untuk mengembangkan minat, bakat, serta kreativitas siswa/i SMA/SMK/MA se-Kepulauan Riau.",
+  "Pengaderan HMTI - Kegiatan pembinaan mahasiswa baru Jurusan Teknik Informatika untuk mengenal Jurusan Informatika, HMTI, membangun solidaritas, dan mengembangkan jiwa kepemimpinan.",
+  "Pengabdian Eksternal - Kegiatan sosial HMTI di luar kampus sebagai bentuk kontribusi dan kepedulian kepada masyarakat."
+],
     gallery: ["/gallery/hmti/kegiatan-1.jpeg", "/gallery/hmti/kegiatan-2.jpeg", "/gallery/hmti/kegiatan-3.jpeg", "/gallery/hmti/kegiatan-4.jpeg", "/gallery/hmti/kegiatan-5.jpeg", "/gallery/hmti/kegiatan-6.jpeg", "/gallery/hmti/kegiatan-7.jpeg", "/gallery/hmti/kegiatan-8.jpeg"],
     skills: {
       leadership: 7,
@@ -177,7 +184,11 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Menjadi wadah aspirasi mahasiswa Elektro yang inklusif dan responsif",
       "Berorientasi pada regenerasi berkelanjutan dengan mempersiapkan kader-kader kompeten"
     ],
-    flagshipPrograms: ["Teknologi Tepat Guna", "Hme Fair", "Program Tri Dharma"],
+    flagshipPrograms: [
+  "Teknologi Tepat Guna - Kegiatan yang mengembangkan, mengkompetisikan, dan menampilkan inovasi yang dirancang sesuai dengan kebutuhan masyarakat.",
+  "HME Fair - Wadah bagi mahasiswa Politeknik Negeri Batam dalam mengekspresikan minat dan bakat serta kreativitas sekaligus sarana untuk meningkatkan tali silaturahmi, persaudaraan dan solidaritas antar mahasiswa, alumni, civitas akademi jurusan teknik elektro Politeknik Negeri Batam dan juga memperluas jaringan ke masyarakat umum.",
+  "Program Tri Dharma - Program kerja yang berfokus pada pelaksanaan kegiatan pendidikan, penelitian sederhana, dan pengabdian kepada masyarakat di luar kampus, khususnya di desa, kampung, atau panti sosial. Program ini bertujuan agar mahasiswa Teknik Elektro dapat menerapkan ilmu yang dimiliki untuk membantu dan memberdayakan masyarakat."
+],
     gallery: ["/gallery/hme/kegiatan-1.jpg", "/gallery/hme/kegiatan-2.png", "/gallery/hme/kegiatan-3.jpg"],
     skills: {
       leadership: 7,
@@ -214,7 +225,10 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Jadi wadah untuk belajar, berorganisasi, dan mengembangkan minat serta bakat",
       "Membangun solidaritas dan kebersamaan sebagai keluarga besar Teknik Mesin"
     ],
-    flagshipPrograms: ["Bina Desa", "HMM Fest & Fair"],
+   flagshipPrograms: [
+  "Bina Desa - Program kerja pengabdian masyarakat yang dilaksanakan di daerah atau pulau yang membutuhkan. Kegiatan ini berfokus pada kontribusi dan pemberdayaan masyarakat, termasuk membantu memperbaiki atau mengembangkan teknologi yang masih belum memadai di daerah tersebut.",
+  "HMM Fest/ Fair - Program kerja berbasis perlombaan yang diselenggarakan secara bergantian setiap tahunnya. HMM Fest ditujukan bagi mahasiswa, sedangkan HMM Fair ditujukan bagi siswa SMA/SMK sederajat, dengan jenis dan tujuan perlombaan yang disesuaikan dengan konsep kegiatan pada setiap tahunnya."
+],
     gallery: ["/gallery/hmm/kegiatan-1.jpeg", "/gallery/hmm/kegiatan-2.jpeg", "/gallery/hmm/kegiatan-3.jpeg", "/gallery/hmm/kegiatan-4.jpeg"],
     skills: {
       leadership: 9,
@@ -251,7 +265,12 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Menjadi ruang untuk mempererat ukhuwah dan menambah wawasan keislaman",
       "Mengajak mahasiswa untuk aktif dalam kegiatan yang positif dan bermanfaat"
     ],
-    flagshipPrograms: ["Semarak Ramadan", "Perayaan Hari Besar Islam (PHBI)", "IMMPB Islamic Festival (IFES)", "Polibatam Berdzikir"],
+   flagshipPrograms: [
+  "Semarak Ramadan - Rangkaian kegiatan Ramadan seperti One Day One Juz, Malam Bina Iman dan Taqwa, serta bakti sosial. Mulai dari bersama-sama menyelesaikan bacaan Al-Qur'an, bermalam dan membangun kebersamaan di panti asuhan, hingga berbagi dan membantu sesama.",
+  "Perayaan Hari Besar Islam (PHBI) - Kegiatan untuk memperingati Semarak Berkurban, Tahun Baru Islam, Maulid Nabi, dan Isra' Mi'raj melalui kajian, kegiatan keislaman dan berbagai aktivitas kebersamaan.",
+  "IMMPB Islamic Festival (IFES) - Ajang perlombaan Islami bagi siswa/i SMA/SMK/MA sederajat se-Kota Batam sebagai wadah menyalurkan minat, bakat, dan semangat berkompetisi.",
+  "Polibatam Berdzikir - Kegiatan keislaman dalam rangka menyambut mahasiswa baru, diisi dengan dzikir dan kegiatan bersama sebagai bagian dari penyambutan mahasiswa baru di Politeknik Negeri Batam."
+],
     gallery: ["/gallery/immpb/kegiatan-1.jpg", "/gallery/immpb/kegiatan-2.jpg", "/gallery/immpb/kegiatan-3.jpg", "/gallery/immpb/kegiatan-4.jpeg", "/gallery/immpb/kegiatan-5.jpeg"],
     skills: {
       leadership: 8,
@@ -296,7 +315,15 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Melakukan banyak aktivitas sosial dan berbagai pelayanan dalam ruang lingkup kampus dan masyarakat",
       "Menjadi wadah bagi mahasiswa kristen untuk mengasah skill bernyanyi, musik, kepemimpinan, komunikasi dan masih banyak lagi"
     ],
-    flagshipPrograms: ["Perayaan Paskah", "Discipleship Gathering", "EL-SHADDAI COMPETITION", "Penyambutan Mahasiswa Baru", "El-Shaddai Mission Trip", "Pengaderan El-Shaddai", "Perayaan Natal"],
+    flagshipPrograms: [
+  "Perayaan Paskah - Kegiatan merayakan kebangkitan Tuhan Yesus Kristus bersama mahasiswa.",
+  "Discipleship Gathering - Kegiatan yang bertempat di pantai dimana menyatukan seluruh akk dan juga pkk menjadi keluarga besar.",
+  "EL-SHADDAI COMPETITION - Kegiatan perlombaan berupa musik dan tari-tarian.",
+  "Penyambutan Mahasiswa Baru - Kegiatan menyambut mahasiswa kristen baru.",
+  "El-Shaddai Mission Trip - Kegiatan bina desa dimana mahasiswa akan terjun langsung membantu masyarakat.",
+  "Pengaderan El-Shaddai - Mempersiapkan mahasiswa sebagai calon BPH.",
+  "Perayaan Natal - Kegiatan merayakan kelahiran Tuhan Yesus Kristus bersama mahasiswa."
+],
     gallery: ["/gallery/pd-elshaddai/kegiatan-1.jpg", "/gallery/pd-elshaddai/kegiatan-2.jpg", "/gallery/pd-elshaddai/kegiatan-3.jpg", "/gallery/pd-elshaddai/kegiatan-4.jpg"],
     skills: {
       leadership: 8,
@@ -334,7 +361,15 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Menjadi wadah belajar dan berbagi pengetahuan teknologi melalui workshop, diskusi, serta kegiatan praktis",
       "Mendorong kolaborasi, eksplorasi teknologi, dan pengembangan kemampuan mahasiswa melalui komunitas yang terbuka dan inklusif"
     ],
-    flagshipPrograms: ["Blugcamp", "Belajar dan Berbagi", "Open Source Competition", "Webinar", "Blug Gathering", "Blug Goes To School"],
+    flagshipPrograms: [
+  "Blugcamp - Kegiatan belajar dengan sesama pengurus seputar teknologi open source.",
+  "Belajar dan Berbagi - Kegiatan dimana pengurus menyebarkan ilmu seputar teknologi open source kepada masyarakat umum.",
+  "Open Source Competition - Kegiatan perlombaan yang diadakan oleh Batam Linux User Group setiap tahun untuk siswa/i SMA/K se-Batam.",
+  "Webinar - Kegiatan membahas seputar teknologi open source.",
+  "Blug Gathering - Kegiatan yang menyatukan 1 organisasi.",
+  "Blug Birthday - Sama seperti Blug Gathering.",
+  "Blug Goes To School - Kegiatan memberikan wawasan seputar teknologi open source kepada siswa SMA/K."
+],
     gallery: ["/gallery/blug/kegiatan-1.jpg", "/gallery/blug/kegiatan-2.jpg", "/gallery/blug/kegiatan-3.jpg", "/gallery/blug/kegiatan-4.jpg", "/gallery/blug/kegiatan-5.jpg", "/gallery/blug/kegiatan-6.jpg", "/gallery/blug/kegiatan-7.jpg", "/gallery/blug/kegiatan-8.jpg", "/gallery/blug/kegiatan-9.jpg", "/gallery/blug/kegiatan-10.jpg"],
     skills: {
       leadership: 8,
@@ -377,7 +412,11 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Fokus pada pengembangan kemampuan mahasiswa sesuai divisi yang dimiliki.",
       "Menjadi wadah mahasiswa untuk mengasah bakat dan potensi, terutama di bidang kegiatan alam terbuka."
     ],
-    flagshipPrograms: ["Aksi Hijau", "Aksi Bersih", "Latihan Divisi"],
+    flagshipPrograms: [
+  "Aksi Hijau - Penanaman yang mengundang Mapala yang ada di Batam serta beberapa komunitas lingkungan.",
+  "Aksi Bersih - Program ini bertujuan menjaga kebersihan lingkungan yang dimana sering bekerjasama dengan pihak luar.",
+  "Latihan Divisi - Kami memiliki 4 divisi (Gunung Hutan, Susur Pantai, Lingkungan Hidup, dan Panjat) yang berfungsi untuk pengembangan kemampuan mahasiswa."
+],
     gallery: ["/gallery/mapala/kegiatan-1.jpg", "/gallery/mapala/kegiatan-2.jpg", "/gallery/mapala/kegiatan-3.jpg", "/gallery/mapala/kegiatan-4.jpg"],
     skills: {
       leadership: 6,
@@ -410,7 +449,12 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Melakukan pengabdian dan kegiatan sosial bagi masyarakat dalam bidang pendidikan dan inovasi",
       "Meningkatkan kemampuan dalam kompetisi dan prestasi"
     ],
-    flagshipPrograms: ["PEC Care", "PECON", "Gathering dan Internal Bonding Alumni Sharing", "SneakPEC dan Voday"],
+    flagshipPrograms: [
+  "PEC Care - Kegiatan pengabdian kepada masyarakat di pulau selama 3 hari, sembari membangun kebersamaan antar anggota dan membantu masyarakat yang membutuhkan sehingga menumbuhkan rasa peduli, kepekaan sosial dan rasa tenggang rasa dengan sesama manusia.",
+  "PECON - Kompetisi Konferensi dalam model MUN guna meningkatkan kemampuan Critical Thinking, Public Speaking dan Kepercayaan diri, sehingga peserta mendapatkan pengalaman dalam menerapkan bahasa Inggris dalam bentuk yang lebih serius.",
+  "Gathering dan Internal Bonding Alumni Sharing - Kegiatan menyenangkan yang bertujuan membangun relasi dengan para alumni dan sesama anggota guna meningkatkan hubungan sosial dan rasa peduli sesama.",
+  "SneakPEC dan Voday - Video, Foto dan bentuk media digital yang berisi informasi penting, fakta unik, dan film pendek yang dikemas dengan media yang menarik sehingga meningkatkan pengetahuan berbahasa Inggris dengan cara yang menyenangkan."
+],
     gallery: ["/gallery/pec/kegiatan-1.jpg", "/gallery/pec/kegiatan-2.jpg", "/gallery/pec/kegiatan-3.jpg", "/gallery/pec/kegiatan-4.jpg"],
     skills: {
       leadership: 4,
@@ -458,10 +502,10 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Ruang berekspresi mahasiswa"
     ],
     flagshipPrograms: [
-      "Lensa Paradigma",
-      "Creative Workshop with LPM",
-      "Spill Polibatam"
-    ],
+  "Lensa Paradigma - Kegiatan perlombaan di bidang jurnalistik seperti fotografi jurnalistik, desain poster, reporting, dan karya tulis jurnalistik.",
+  "Creative Workshop with LPM - Kegiatan seminar jurnalistik materi penulisan berita, teknik fotografi jurnalistik, serta video produksi video berita.",
+  "Spill Polibatam - Sebuah media diskusi dan penyalur informasi khusus bagi mahasiswa/i Polibatam yang dikemas dalam bentuk video atau podcast."
+],
     gallery: ["/gallery/lpm/kegiatan-1.jpg", "/gallery/lpm/kegiatan-2.jpg", "/gallery/lpm/kegiatan-3.jpg", "/gallery/lpm/kegiatan-4.jpg"],
     skills: {
       publicSpeaking: 6,
@@ -494,7 +538,12 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Banyak melakukan kegiatan di luar ruangan, terutama di bawah matahari",
       "Menjadi wadah mahasiswa untuk mengembangkan bakat dan skill menjadi atlet"
     ],
-    flagshipPrograms: ["KOP Sport", "Sport Games", "POM (Pekan Olahraga Mahasiswa)", "KOP E-Sport"],
+   flagshipPrograms: [
+  "KOP Sport - Ajang kompetisi olahraga yang diselenggarakan oleh Komite Olahraga Polibatam sebagai sarana bagi mahasiswa untuk mengembangkan minat dan bakat di bidang olahraga seperti futsal, badminton, dan basket.",
+  "Sport Games - Program kerja dari Komite Olahraga Polibatam (KOP) yang diselenggarakan sebagai wadah kompetisi olahraga bagi pelajar SMA/SMK se-Kota Batam. Kegiatan ini bertujuan untuk mencari dan menjaring atlet-atlet muda yang memiliki bakat serta potensi dalam bidang olahraga, khususnya pada cabang Futsal/Basket, Voli, dan Mobile Legends.",
+  "POM (Pekan Olahraga Mahasiswa) - Pekan Olahraga Mahasiswa (POM) Polibatam disusun sebagai ajang kompetisi yang menggabungkan olahraga fisik dan e-sports, sehingga mampu mewadahi minat mahasiswa secara lebih luas. Kegiatan ini menggunakan sistem turnamen antarjurusan, dengan cabang olahraga meliputi futsal, voli, dan biliar, serta cabang e-sports, yaitu PES dan Mobile Legends.",
+  "KOP E-Sport - Turnamen yang diselenggarakan sebagai wadah kompetisi dan hiburan bagi pemuda serta komunitas gamer. Turnamen ini menghadirkan tiga cabang permainan populer, yaitu Mobile Legends: Bang Bang, Tekken 8, dan eFootball."
+],
     gallery: ["/gallery/kop/kegiatan-1.jpeg", "/gallery/kop/kegiatan-2.jpeg", "/gallery/kop/kegiatan-3.jpeg", "/gallery/kop/kegiatan-4.jpeg", "/gallery/kop/kegiatan-5.jpeg"],
     skills: {
       communication: 5,
@@ -535,7 +584,10 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Memiliki berbagai bidang seni seperti tari, musik, vokal, teater, dan seni rupa",
       "Mengembangkan kemampuan anggota melalui proses berkarya, berorganisasi, berkolaborasi, dan mengikuti berbagai kegiatan serta pertunjukan seni"
     ],
-    flagshipPrograms: ["Creative Art Festival", "Kaderisasi"],
+    flagshipPrograms: [
+  "Creative Art Festival - Kegiatan yang bertujuan sebagai wadah dalam mengembangkan jiwa seni serta bentuk memperkenalkan seniman berjiwa kreatif.",
+  "Kaderisasi - Kegiatan mengkader SDM-SDM baru bagi regenerasi kabinet KUAS di tahun selanjutnya."
+],
     gallery: ["/gallery/kuas/kegiatan-1.jpg", "/gallery/kuas/kegiatan-2.jpg", "/gallery/kuas/kegiatan-3.jpg", "/gallery/kuas/kegiatan-4.jpg", "/gallery/kuas/kegiatan-5.jpg"],
     skills: {
       leadership: 7,
@@ -579,7 +631,12 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Menjadi wadah untuk mengubah ide kreatif dan inovatif menjadi peluang bisnis nyata",
       "Membangun pengalaman bisnis melalui praktik, pelatihan, kompetisi, dan networking"
     ],
-    flagshipPrograms: ["EzoBiz Explorer", "Sekolah Kewirausahaan Muda (SKEMA)", "ENERGI Trip to ISNAPURING", "ENERGI On The Go"],
+   flagshipPrograms: [
+  "EzoBiz Explorer - Kegiatan eksplorasi kewirausahaan yang menggabungkan konsep bisnis dan keberlanjutan. Anggota melakukan kunjungan langsung untuk mempelajari bagaimana bisnis dapat memanfaatkan potensi alam sekaligus tetap memperhatikan lingkungan.",
+  "Sekolah Kewirausahaan Muda (SKEMA) - Kegiatan edukasi kewirausahaan bersama siswa sekolah menengah melalui seminar interaktif tentang dunia usaha, peluang bisnis, serta pola pikir kreatif dan inovatif. Anggota ENERGI juga mendapatkan pengalaman dalam menyampaikan edukasi dan berbagi pengetahuan kepada generasi muda.",
+  "ENERGI Trip to ISNAPURING - Kegiatan kunjungan dan experiential learning ke industri kerajinan untuk melihat langsung bagaimana bahan lokal diolah menjadi produk bernilai jual. Peserta mengikuti sharing session, mempelajari proses produksi dan pemasaran, serta praktik membuat produk kerajinan, sehingga mendapatkan gambaran nyata tentang peluang bisnis kreatif.",
+  "ENERGI On The Go - Program yang membawa ENERGI terjun langsung ke berbagai kegiatan bazar. Anggota mengelola booth, berkolaborasi dengan UMKM atau brand lokal, serta menjalankan mini workshop dan games. Kegiatan ini menjadi wadah untuk praktik berwirausaha, belajar menjual produk, membangun networking, dan mengembangkan kemampuan komunikasi."
+],
     gallery: ["/gallery/energi/kegiatan-1.jpg", "/gallery/energi/kegiatan-2.jpg", "/gallery/energi/kegiatan-3.jpg", "/gallery/energi/kegiatan-4.jpg", "/gallery/energi/kegiatan-5.jpg"],
     skills: {
       leadership: 8,
@@ -618,7 +675,11 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Peningkatan kerjasama dengan internal hingga external Polibatam",
       "Menyediakan wadah masyarakat umum untuk mengembangkan minat dan bakat di bidang audio visual"
     ],
-    flagshipPrograms: ["REMAKISM (REKAM Making Short Movie)", "BP (Broadcasting Event Polibatam)", "REKAM Festival"],
+    flagshipPrograms: [
+  "REMAKISM (REKAM Making Short Movie) - Proses pembuatan film guna meningkatkan minat dan bakat anggota.",
+  "BEP (Broadcasting Event Polibatam) - Ikut serta menjadi kru broadcasting pada event besar Polibatam.",
+  "REKAM Festival - Program kerja yang menyediakan ruang untuk pelajar SMA/SMK/MA sederajat dalam memproduksi film dan poster film."
+],
     gallery: ["/gallery/rekam/kegiatan-1.jpg", "/gallery/rekam/kegiatan-2.jpg", "/gallery/rekam/kegiatan-3.jpg", "/gallery/rekam/kegiatan-4.jpg", "/gallery/rekam/kegiatan-5.jpg"],
     skills: {
       publicSpeaking: 8,
