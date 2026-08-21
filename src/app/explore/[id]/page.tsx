@@ -154,8 +154,9 @@ export default function OrmawaDetailPage() {
                 <Image
                   src={ormawa.logo}
                   alt={ormawa.name}
-                  fill
-                  className="rounded-2xl object-contain p-3 bg-white"
+                  width={160}
+                  height={160}
+                  className="rounded-2xl object-contain p-3 bg-white w-full h-full"
                   onError={() => setLogoError(true)}
                   priority
                 />
