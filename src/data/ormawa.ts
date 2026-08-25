@@ -114,9 +114,8 @@ export const ORMAWA_LIST: Ormawa[] = [
       organizationManagement: 8
     },
     suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka belajar & berdiskusi", "Tertarik bisnis & kewirausahaan", "Suka membantu & berkontribusi untuk masyarakat"],
-    achievements: ["Juara 4 PPK ORMAWA Nasional - 2025",
-      "Juara Harapan 1 - Poster Paling",
-      "Inovatif - Abdidaya Ormawa 2025"
+    achievements: [
+      "Juara Harapan 1 - Poster Paling Inovatif - Abdidaya Ormawa 2025",
     ],
     instagram: "@hmmbpolibatam",
     tiktok: "@hmmbpolibatam",
