@@ -85,16 +85,23 @@ export default function ExplorePage() {
     );
   });
 
+  const normalizeText = (value?: string) => {
+    if (!value) return "";
+    const trimmed = value.trim();
+    return trimmed === "-" ? "" : trimmed;
+  };
+
   const getRecruitmentTitle = (ormawa: Ormawa) =>
-    ormawa.recruitmentTitle || `Open Recruitment ${ormawa.shortName}`;
+    normalizeText(ormawa.recruitmentTitle) || `Open Recruitment ${ormawa.shortName}`;
 
   const getRecruitmentDescription = (ormawa: Ormawa) =>
-    ormawa.recruitmentDescription ||
+    normalizeText(ormawa.recruitmentDescription) ||
     `Bergabunglah bersama ${ormawa.name} dan mulai perjalananmu di organisasi yang tepat dengan minat, bakat, dan semangatmu.`;
 
   const formatDate = (value?: string) => {
-    if (!value) return "-";
-    const date = new Date(value);
+    const safeValue = normalizeText(value);
+    if (!safeValue) return "-";
+    const date = new Date(safeValue);
     if (Number.isNaN(date.getTime())) return value;
     return new Intl.DateTimeFormat("id-ID", {
       day: "numeric",
@@ -104,8 +111,8 @@ export default function ExplorePage() {
   };
 
   const getRecruitmentPeriod = (ormawa: Ormawa) => {
-    const start = ormawa.recruitmentStartDate;
-    const end = ormawa.recruitmentEndDate;
+    const start = normalizeText(ormawa.recruitmentStartDate);
+    const end = normalizeText(ormawa.recruitmentEndDate);
     if (!start && !end) return null;
     if (start && end) return `${formatDate(start)} – ${formatDate(end)}`;
     if (start) return `Mulai ${formatDate(start)}`;
