@@ -1,6 +1,7 @@
 // src/types/quiz.ts
 import { Category } from "./ormawa";
 
+// TAMBAHKAN interface ini
 export interface Participant {
   nama: string;
   nim: string;

@@ -43,6 +43,7 @@ function OrmawaLogo({ ormawa, size = 48 }: { ormawa?: Ormawa; size?: number }) {
           src={ormawa.logo}
           alt={`Logo ${ormawa.name}`}
           fill
+          sizes={`${size}px`}
           className="object-contain p-1.5"
           onError={() => setFailed(true)}
         />
@@ -611,7 +612,7 @@ export default function ResultPage() {
               {submitStatus === "success" && (
                 <div className="flex items-center justify-center gap-3 text-green-600">
                   <CheckCircle className="w-5 h-5" />
-                  <span className="text-sm font-medium">Hasil berhasil disimpan!</span>
+                  <span className="text-sm font-medium">✅ Hasil berhasil disimpan!</span>
                 </div>
               )}
 
@@ -619,7 +620,7 @@ export default function ResultPage() {
                 <div className="flex items-center justify-center gap-3 text-amber-600">
                   <AlertCircle className="w-5 h-5" />
                   <span className="text-sm font-medium">
-                    NIM {participant?.nim} sudah pernah mengikuti quiz ini.
+                    ⚠️ NIM {participant?.nim} sudah pernah mengikuti quiz ini.
                   </span>
                 </div>
               )}
