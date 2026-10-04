@@ -653,10 +653,10 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Creative Art Festival - Kegiatan yang bertujuan sebagai wadah dalam mengembangkan jiwa seni serta bentuk memperkenalkan seniman berjiwa kreatif.",
       "Kaderisasi - Kegiatan mengkader SDM-SDM baru bagi regenerasi kabinet KUAS di tahun selanjutnya."
     ],
-    recruitmentTitle: "-",
-    recruitmentDescription: "-",
-    recruitmentStartDate: "2026-10-03",
-    recruitmentEndDate: "2026-10-03",
+    recruitmentTitle: "OPEN RECRUITMENT PENGADERAN KUAS",
+    recruitmentDescription: "Punya ketertarikan di bidang seni, organisasi, atau sekadar ingin menemukan ruang baru untuk belajar dan berkembang? 👀🎭 Yuk, mulai langkah pertamamu dan jadi bagian dari keluarga besar Kumpulan Anak Seni (KUAS)! 🤝💫",
+    recruitmentStartDate: "2026-10-04",
+    recruitmentEndDate: "2026-10-11",
     gallery: ["/gallery/kuas/kegiatan-1.webp", "/gallery/kuas/kegiatan-2.webp", "/gallery/kuas/kegiatan-3.webp", "/gallery/kuas/kegiatan-4.webp", "/gallery/kuas/kegiatan-5.webp"],
     skills: {
       leadership: 7,
@@ -680,7 +680,7 @@ export const ORMAWA_LIST: Ormawa[] = [
     instagram: "@kuaspolibatam",
     tiktok: "@kuas.polibatam",
     youtube: "@kuaspolibatam4269",
-    registrationLink: "https://forms.gle/kuas-registration",
+    registrationLink: "https://s.id/Open-Recruitment-KUAS-2026",
     contactPerson: "+62 878-7113-1540 (Juliana)"
   },
 
