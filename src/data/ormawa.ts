@@ -108,8 +108,9 @@ export const ORMAWA_LIST: Ormawa[] = [
     ],
     recruitmentTitle: "-",
     recruitmentDescription: "-",
-    recruitmentStartDate: "2026-10-03",
-    recruitmentEndDate: "2026-10-03",
+    recruitmentStartDate: "-",
+    recruitmentEndDate: "-",
+    recruitmentStatus: "comingSoon",
     gallery: ["/gallery/hmmb/kegiatan-1.webp", "/gallery/hmmb/kegiatan-2.webp", "/gallery/hmmb/kegiatan-3.webp", "/gallery/hmmb/kegiatan-4.webp"],
     skills: {
       leadership: 8,
@@ -162,6 +163,7 @@ export const ORMAWA_LIST: Ormawa[] = [
     recruitmentDescription: "Magang HMTI 2026 merupakan kegiatan tahunan yang dilaksanakan oleh Badan Pengurus Harian Himpunan Mahasiswa Teknik Informatika (HMTI) Politeknik Negeri Batam, di masing-masing departemen untuk mengenalkan struktur, peran, serta alur kerja organisasi HMTI.",
     recruitmentStartDate: "2026-10-23",
     recruitmentEndDate: "2026-10-30",
+    recruitmentStatus: "closed",
     gallery: ["/gallery/hmti/kegiatan-1.webp", "/gallery/hmti/kegiatan-2.webp", "/gallery/hmti/kegiatan-3.webp", "/gallery/hmti/kegiatan-4.webp", "/gallery/hmti/kegiatan-5.webp", "/gallery/hmti/kegiatan-6.webp", "/gallery/hmti/kegiatan-7.webp", "/gallery/hmti/kegiatan-8.webp"],
     skills: {
       leadership: 7,
@@ -211,8 +213,9 @@ export const ORMAWA_LIST: Ormawa[] = [
     ],
     recruitmentTitle: "-",
     recruitmentDescription: "-",
-    recruitmentStartDate: "2026-10-03",
-    recruitmentEndDate: "2026-10-03",
+    recruitmentStartDate: "-",
+    recruitmentEndDate: "-",
+    recruitmentStatus: "comingSoon",
     gallery: ["/gallery/hme/kegiatan-1.webp", "/gallery/hme/kegiatan-2.webp", "/gallery/hme/kegiatan-3.webp"],
     skills: {
       leadership: 7,
@@ -256,8 +259,9 @@ export const ORMAWA_LIST: Ormawa[] = [
     ],
     recruitmentTitle: "-",
     recruitmentDescription: "-",
-    recruitmentStartDate: "2026-10-03",
-    recruitmentEndDate: "2026-10-03",
+    recruitmentStartDate: "-",
+    recruitmentEndDate: "-",
+    recruitmentStatus: "comingSoon",
     gallery: ["/gallery/hmm/kegiatan-1.webp", "/gallery/hmm/kegiatan-2.webp", "/gallery/hmm/kegiatan-3.webp", "/gallery/hmm/kegiatan-4.webp"],
     skills: {
       leadership: 9,
@@ -361,8 +365,9 @@ export const ORMAWA_LIST: Ormawa[] = [
     ],
     recruitmentTitle: "-",
     recruitmentDescription: "-",
-    recruitmentStartDate: "2026-10-03",
-    recruitmentEndDate: "2026-10-03",
+    recruitmentStartDate: "-",
+    recruitmentEndDate: "-",
+    recruitmentStatus: "comingSoon",
     gallery: ["/gallery/pd-elshaddai/kegiatan-1.webp", "/gallery/pd-elshaddai/kegiatan-2.webp", "/gallery/pd-elshaddai/kegiatan-3.webp", "/gallery/pd-elshaddai/kegiatan-4.webp"],
     skills: {
       leadership: 8,
@@ -412,8 +417,9 @@ export const ORMAWA_LIST: Ormawa[] = [
     ],
     recruitmentTitle: "Sudo Join BLUG 2026",
     recruitmentDescription: "Bergabunglah dengan BLUG untuk belajar Linux, open source, dan membangun skill teknologi bersama komunitas yang aktif dan kolaboratif.",
-    recruitmentStartDate: "2026-10-03",
-    recruitmentEndDate: "2026-10-03",
+    recruitmentStartDate: "-",
+    recruitmentEndDate: "-",
+    recruitmentStatus: "comingSoon",
     gallery: ["/gallery/blug/kegiatan-1.webp", "/gallery/blug/kegiatan-2.webp", "/gallery/blug/kegiatan-3.webp", "/gallery/blug/kegiatan-4.webp", "/gallery/blug/kegiatan-5.webp", "/gallery/blug/kegiatan-6.webp", "/gallery/blug/kegiatan-7.webp", "/gallery/blug/kegiatan-8.webp", "/gallery/blug/kegiatan-9.webp", "/gallery/blug/kegiatan-10.webp"],
     skills: {
       leadership: 8,
@@ -464,8 +470,9 @@ export const ORMAWA_LIST: Ormawa[] = [
     ],
     recruitmentTitle: "-",
     recruitmentDescription: "-",
-    recruitmentStartDate: "2026-10-03",
-    recruitmentEndDate: "2026-10-03",
+    recruitmentStartDate: "-",
+    recruitmentEndDate: "-",
+    recruitmentStatus: "comingSoon",
     gallery: ["/gallery/mapala/kegiatan-1.webp", "/gallery/mapala/kegiatan-2.webp", "/gallery/mapala/kegiatan-3.webp", "/gallery/mapala/kegiatan-4.webp"],
     skills: {
       leadership: 6,
@@ -507,8 +514,9 @@ export const ORMAWA_LIST: Ormawa[] = [
     ],
     recruitmentTitle: "-",
     recruitmentDescription: "-",
-    recruitmentStartDate: "2026-10-03",
-    recruitmentEndDate: "2026-10-03",
+    recruitmentStartDate: "-",
+    recruitmentEndDate: "-",
+    recruitmentStatus: "comingSoon",
     gallery: ["/gallery/pec/kegiatan-1.webp", "/gallery/pec/kegiatan-2.webp", "/gallery/pec/kegiatan-3.webp", "/gallery/pec/kegiatan-4.webp"],
     skills: {
       leadership: 4,
@@ -606,8 +614,9 @@ export const ORMAWA_LIST: Ormawa[] = [
     ],
     recruitmentTitle: "-",
     recruitmentDescription: "-",
-    recruitmentStartDate: "2026-10-03",
-    recruitmentEndDate: "2026-10-03",
+    recruitmentStartDate: "-",
+    recruitmentEndDate: "-",
+    recruitmentStatus: "comingSoon",
     gallery: ["/gallery/kop/kegiatan-1.webp", "/gallery/kop/kegiatan-2.webp", "/gallery/kop/kegiatan-3.webp", "/gallery/kop/kegiatan-4.webp", "/gallery/kop/kegiatan-5.webp"],
     skills: {
       communication: 5,
@@ -635,7 +644,8 @@ export const ORMAWA_LIST: Ormawa[] = [
   // ============================================
   // KUAS - Kumpulan Anak Seni
   // ============================================
-  {
+ 
+ {
     id: "kuas",
     name: "Kumpulan Anak Seni",
     logo: "/logos/KUAS.webp",
@@ -657,7 +667,7 @@ export const ORMAWA_LIST: Ormawa[] = [
     recruitmentDescription: "Punya ketertarikan di bidang seni, organisasi, atau sekadar ingin menemukan ruang baru untuk belajar dan berkembang? 👀🎭 Yuk, mulai langkah pertamamu dan jadi bagian dari keluarga besar Kumpulan Anak Seni (KUAS)! 🤝💫",
     recruitmentStartDate: "2026-10-04",
     recruitmentEndDate: "2026-10-11",
-    gallery: ["/gallery/kuas/kegiatan-1.webp", "/gallery/kuas/kegiatan-2.webp", "/gallery/kuas/kegiatan-3.webp", "/gallery/kuas/kegiatan-4.webp", "/gallery/kuas/kegiatan-5.webp"],
+    gallery: ["/gallery/kuas/kegiatan-1.webp", "/gallery/kuas/kegiatan-2.webp", "/gallery/kuas/kegiatan-3.webp", "/gallery/kuas/kegiatan-4.webp", "/gallery/kuas/kegiatan-5.webp", "/gallery/kuas/kegiatan-6.webp","/gallery/kuas/kegiatan-7.webp","/gallery/kuas/kegiatan-8.webp","/gallery/kuas/kegiatan-9.webp","/gallery/kuas/kegiatan-10.webp","/gallery/kuas/kegiatan-11.webp","/gallery/kuas/kegiatan-12.webp","/gallery/kuas/kegiatan-13.webp"],
     skills: {
       leadership: 7,
       publicSpeaking: 7,
@@ -674,8 +684,11 @@ export const ORMAWA_LIST: Ormawa[] = [
     },
     suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membuat acara & bekerja dalam tim", "Suka berkarya & berkreasi", "Tertarik seni, media & publikasi"],
     achievements: [
-      "Solo Song Batak Putra PORSENI - 2026: Joshua A. Manaping berhasil meraih juara 1",
-      "Vocal Group PEKSIMIDA - 2026: Berhasil meraih juara 1 dalam cabang lomba Vocal Group pada ajang PEKSIMIDA Kepulauan Riau 2026"
+      "Juara 1 Solo Song Batak Putra PORSENI 2026 — Joshua A. Manaping",
+      "Juara 1 Vocal Group PEKSIMIDA Kepulauan Riau 2026",
+      "Juara 2 Bintang RRI 2026 — Josua Anugrah Manaping",
+      "Juara 3 Game Art Design 2026 — Samuel Mora Nara Siregar",
+      "Juara 2 KMIPN 2025 — Kategori Animasi — Tim: Aji Muhammad Ihsan, Ivory Meisya Rafelia, dan Rashad Raihan Mahendra",
     ],
     instagram: "@kuaspolibatam",
     tiktok: "@kuas.polibatam",
@@ -757,8 +770,9 @@ export const ORMAWA_LIST: Ormawa[] = [
     ],
     recruitmentTitle: "-",
     recruitmentDescription: "-",
-    recruitmentStartDate: "2026-10-03",
-    recruitmentEndDate: "2026-10-03",
+    recruitmentStartDate: "-",
+    recruitmentEndDate: "-",
+    recruitmentStatus: "comingSoon",
     gallery: ["/gallery/rekam/kegiatan-1.webp", "/gallery/rekam/kegiatan-2.webp", "/gallery/rekam/kegiatan-3.webp", "/gallery/rekam/kegiatan-4.webp", "/gallery/rekam/kegiatan-5.webp"],
     skills: {
       publicSpeaking: 8,
