@@ -106,11 +106,10 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Pengaderan Jurusan Manajemen Bisnis (PJMB) - Kegiatan menyambut mahasiswa/i baru Manajemen Bisnis.",
       "Business Agent's Leading Competition (BALANCE) - Perlombaan akademik yang diselenggarakan setiap tahun dengan skala Nasional."
     ],
-    recruitmentTitle: "-",
-    recruitmentDescription: "-",
-    recruitmentStartDate: "-",
-    recruitmentEndDate: "-",
-    recruitmentStatus: "comingSoon",
+    recruitmentTitle: "Magang BPH HMMB 2027",
+    recruitmentDescription: "Magang HMMB merupakan program pengenalan dan perekrutan bagi mahasiswa Manajemen dan Bisnis untuk memahami peran setiap departemen, mengasah keterampilan organisasi, komunikasi, dan kepemimpinan, serta menjadi langkah awal untuk berkontribusi aktif melalui ide dan potensi terbaik dalam kegiatan HMMB.", recruitmentStartDate: "2026-10-04",
+    recruitmentEndDate: "2026-10-31",
+    recruitmentStatus: "open",
     gallery: ["/gallery/hmmb/kegiatan-1.webp", "/gallery/hmmb/kegiatan-2.webp", "/gallery/hmmb/kegiatan-3.webp", "/gallery/hmmb/kegiatan-4.webp"],
     skills: {
       leadership: 8,
@@ -133,7 +132,7 @@ export const ORMAWA_LIST: Ormawa[] = [
     instagram: "@hmmbpolibatam",
     tiktok: "@hmmbpolibatam",
     youtube: "HMMB Polibatam",
-    registrationLink: "https://forms.gle/hmmb-registration",
+    registrationLink: "https://polibatam.id/PendaftaranMagangBPHHMMB2027",
     contactPerson: "+62 821-7071-254 (HMMB Contact)"
   },
 
