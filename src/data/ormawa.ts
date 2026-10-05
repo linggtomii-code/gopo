@@ -468,12 +468,12 @@ export const ORMAWA_LIST: Ormawa[] = [
       "Aksi Bersih - Program ini bertujuan menjaga kebersihan lingkungan yang dimana sering bekerjasama dengan pihak luar.",
       "Latihan Divisi - Kami memiliki 4 divisi (Gunung Hutan, Susur Pantai, Lingkungan Hidup, dan Panjat) yang berfungsi untuk pengembangan kemampuan mahasiswa."
     ],
-    recruitmentTitle: "-",
-    recruitmentDescription: "-",
-    recruitmentStartDate: "-",
-    recruitmentEndDate: "-",
-    recruitmentStatus: "comingSoon",
-    gallery: ["/gallery/mapala/kegiatan-1.webp", "/gallery/mapala/kegiatan-2.webp", "/gallery/mapala/kegiatan-3.webp", "/gallery/mapala/kegiatan-4.webp"],
+    recruitmentTitle: "OPEN RECRUITMENT MAHASISWA PENCINTA ALAM POLITEKNIK NEGERI BATAM",
+    recruitmentDescription: "MAPALA POLIBATAM membuka kesempatan bagi kamu untuk belajar, berproses, dan bertualang serta belajar mengenai alam. Divisi yang Tersedia: - Gunung Hutan ⛰️ - Susur Pantai 🏝️ - Panjat 🧗 - Lingkungan Hidup 🌳 - Selam 🤿",
+    recruitmentStartDate: "2026-10-04",
+    recruitmentEndDate: "2026-10-12",
+    recruitmentStatus: "open",
+    gallery: ["/gallery/mapala/kegiatan-1.webp", "/gallery/mapala/kegiatan-2.webp", "/gallery/mapala/kegiatan-3.webp", "/gallery/mapala/kegiatan-4.webp", "/gallery/mapala/kegiatan-5.webp", "/gallery/mapala/kegiatan-6.webp", "/gallery/mapala/kegiatan-7.webp", "/gallery/mapala/kegiatan-8.webp", "/gallery/mapala/kegiatan-9.webp", '/gallery/mapala/kegiatan-10.webp', "/gallery/mapala/kegiatan-11.webp", "/gallery/mapala/kegiatan-12.webp", "/gallery/mapala/kegiatan-13.webp", "/gallery/mapala/kegiatan-14.webp"],
     skills: {
       leadership: 6,
       communication: 8,
@@ -644,8 +644,8 @@ export const ORMAWA_LIST: Ormawa[] = [
   // ============================================
   // KUAS - Kumpulan Anak Seni
   // ============================================
- 
- {
+
+  {
     id: "kuas",
     name: "Kumpulan Anak Seni",
     logo: "/logos/KUAS.webp",
@@ -667,7 +667,7 @@ export const ORMAWA_LIST: Ormawa[] = [
     recruitmentDescription: "Punya ketertarikan di bidang seni, organisasi, atau sekadar ingin menemukan ruang baru untuk belajar dan berkembang? 👀🎭 Yuk, mulai langkah pertamamu dan jadi bagian dari keluarga besar Kumpulan Anak Seni (KUAS)! 🤝💫",
     recruitmentStartDate: "2026-10-04",
     recruitmentEndDate: "2026-10-11",
-    gallery: ["/gallery/kuas/kegiatan-1.webp", "/gallery/kuas/kegiatan-2.webp", "/gallery/kuas/kegiatan-3.webp", "/gallery/kuas/kegiatan-4.webp", "/gallery/kuas/kegiatan-5.webp", "/gallery/kuas/kegiatan-6.webp","/gallery/kuas/kegiatan-7.webp","/gallery/kuas/kegiatan-8.webp","/gallery/kuas/kegiatan-9.webp","/gallery/kuas/kegiatan-10.webp","/gallery/kuas/kegiatan-11.webp","/gallery/kuas/kegiatan-12.webp","/gallery/kuas/kegiatan-13.webp"],
+    gallery: ["/gallery/kuas/kegiatan-1.webp", "/gallery/kuas/kegiatan-2.webp", "/gallery/kuas/kegiatan-3.webp", "/gallery/kuas/kegiatan-4.webp", "/gallery/kuas/kegiatan-5.webp", "/gallery/kuas/kegiatan-6.webp", "/gallery/kuas/kegiatan-7.webp", "/gallery/kuas/kegiatan-8.webp", "/gallery/kuas/kegiatan-9.webp", "/gallery/kuas/kegiatan-10.webp", "/gallery/kuas/kegiatan-11.webp", "/gallery/kuas/kegiatan-12.webp", "/gallery/kuas/kegiatan-13.webp"],
     skills: {
       leadership: 7,
       publicSpeaking: 7,
