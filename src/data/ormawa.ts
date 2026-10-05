@@ -485,7 +485,7 @@ export const ORMAWA_LIST: Ormawa[] = [
     },
     suitableFor: ["Suka memimpin & berorganisasi", "Suka berkomunikasi & bertemu orang baru", "Suka membantu & berkontribusi untuk masyarakat", "Tertarik olahraga & aktivitas fisik"],
     instagram: "@mapala_polibatam",
-    registrationLink: "https://forms.gle/mapala-registration",
+    registrationLink: "https://polibatam.id/RecruitmentMapala2026",
     contactPerson: "+62 851-6141-7488 (Yusuf)"
   },
 
