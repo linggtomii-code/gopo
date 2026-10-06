@@ -110,7 +110,7 @@ export const ORMAWA_LIST: Ormawa[] = [
     recruitmentDescription: "Magang HMMB merupakan program pengenalan dan perekrutan bagi mahasiswa Manajemen dan Bisnis untuk memahami peran setiap departemen, mengasah keterampilan organisasi, komunikasi, dan kepemimpinan, serta menjadi langkah awal untuk berkontribusi aktif melalui ide dan potensi terbaik dalam kegiatan HMMB.", recruitmentStartDate: "2026-10-04",
     recruitmentEndDate: "2026-10-31",
     recruitmentStatus: "open",
-    gallery: ["/gallery/hmmb/kegiatan-1.webp", "/gallery/hmmb/kegiatan-2.webp", "/gallery/hmmb/kegiatan-3.webp", "/gallery/hmmb/kegiatan-4.webp"],
+    gallery: ["/gallery/hmmb/kegiatan-1.webp", "/gallery/hmmb/kegiatan-2.webp", "/gallery/hmmb/kegiatan-3.webp", "/gallery/hmmb/kegiatan-4.webp","/gallery/hmmb/kegiatan-5.webp","/gallery/hmmb/kegiatan-6.webp","/gallery/hmmb/kegiatan-7.webp"],
     skills: {
       leadership: 8,
       publicSpeaking: 8,
