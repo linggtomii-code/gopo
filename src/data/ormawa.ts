@@ -772,7 +772,7 @@ export const ORMAWA_LIST: Ormawa[] = [
     recruitmentStartDate: "2026-10-04",
     recruitmentEndDate: "2026-10-20",
     recruitmentStatus: "open",
-    gallery: ["/gallery/rekam/kegiatan-1.webp", "/gallery/rekam/kegiatan-2.webp", "/gallery/rekam/kegiatan-3.webp", "/gallery/rekam/kegiatan-4.webp", "/gallery/rekam/kegiatan-5.webp"],
+    gallery: ["/gallery/rekam/kegiatan-1.webp", "/gallery/rekam/kegiatan-2.webp", "/gallery/rekam/kegiatan-3.webp", "/gallery/rekam/kegiatan-4.webp", "/gallery/rekam/kegiatan-5.webp","/gallery/rekam/kegiatan-6.webp","/gallery/rekam/kegiatan-7.webp","/gallery/rekam/kegiatan-8.webp"],
     skills: {
       publicSpeaking: 8,
       communication: 9,
