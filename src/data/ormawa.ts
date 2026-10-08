@@ -611,11 +611,11 @@ export const ORMAWA_LIST: Ormawa[] = [
       "POM (Pekan Olahraga Mahasiswa) - Pekan Olahraga Mahasiswa (POM) Polibatam disusun sebagai ajang kompetisi yang menggabungkan olahraga fisik dan e-sports, sehingga mampu mewadahi minat mahasiswa secara lebih luas. Kegiatan ini menggunakan sistem turnamen antarjurusan, dengan cabang olahraga meliputi futsal, voli, dan biliar, serta cabang e-sports, yaitu PES dan Mobile Legends.",
       "KOP E-Sport - Turnamen yang diselenggarakan sebagai wadah kompetisi dan hiburan bagi pemuda serta komunitas gamer. Turnamen ini menghadirkan tiga cabang permainan populer, yaitu Mobile Legends: Bang Bang, Tekken 8, dan eFootball."
     ],
-    recruitmentTitle: "-",
+    recruitmentTitle: "OPEN RECRUITMENT PENGADERAN KOP",
     recruitmentDescription: "-",
-    recruitmentStartDate: "-",
-    recruitmentEndDate: "-",
-    recruitmentStatus: "comingSoon",
+    recruitmentStartDate: "2026-10-16",
+    recruitmentEndDate: "2026-11-04",
+    recruitmentStatus: "open",
     gallery: ["/gallery/kop/kegiatan-1.webp", "/gallery/kop/kegiatan-2.webp", "/gallery/kop/kegiatan-3.webp", "/gallery/kop/kegiatan-4.webp", "/gallery/kop/kegiatan-5.webp"],
     skills: {
       communication: 5,
@@ -636,7 +636,7 @@ export const ORMAWA_LIST: Ormawa[] = [
     instagram: "@komiteolahragapolibatam",
     tiktok: "@komiteolahragapolibatam",
     youtube: "Komite Olahraga Polibatam",
-    registrationLink: "https://forms.gle/kop-registration",
+    registrationLink: "https://polibatam.id/PENGADERAN-KOP-2026",
     contactPerson: "+62 813-7194-0840 (Oyi Febrianti Pasma Saputri)"
   },
 
@@ -767,11 +767,11 @@ export const ORMAWA_LIST: Ormawa[] = [
       "BEP (Broadcasting Event Polibatam) - Ikut serta menjadi kru broadcasting pada event besar Polibatam.",
       "REKAM Festival - Program kerja yang menyediakan ruang untuk pelajar SMA/SMK/MA sederajat dalam memproduksi film dan poster film."
     ],
-    recruitmentTitle: "-",
-    recruitmentDescription: "-",
-    recruitmentStartDate: "-",
-    recruitmentEndDate: "-",
-    recruitmentStatus: "comingSoon",
+    recruitmentTitle: "Open Recruitment REKAM 2027",
+    recruitmentDescription: "Ini saatnya kenalan lebih dekat sama Reka Multimedia (REKAM). Buat yang belum tahu, REKAM itu rumahnya mahasiswa yang suka berkarya, coba hal-hal baru, dan tumbuh bareng lewat dunia kreatif🎬✨",
+    recruitmentStartDate: "2026-10-04",
+    recruitmentEndDate: "2026-10-20",
+    recruitmentStatus: "open",
     gallery: ["/gallery/rekam/kegiatan-1.webp", "/gallery/rekam/kegiatan-2.webp", "/gallery/rekam/kegiatan-3.webp", "/gallery/rekam/kegiatan-4.webp", "/gallery/rekam/kegiatan-5.webp"],
     skills: {
       publicSpeaking: 8,
@@ -794,7 +794,7 @@ export const ORMAWA_LIST: Ormawa[] = [
     ],
     instagram: "@rekam.polibatam",
     youtube: "REKAM Polibatam",
-    registrationLink: "https://forms.gle/rekam-registration",
+    registrationLink: "https://polibatam.id/FormOprecREKAM2027",
     contactPerson: "+62 898-4346-682 (Hubungan dan Kerjasama)"
   }
 ];
