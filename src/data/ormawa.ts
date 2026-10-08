@@ -160,9 +160,9 @@ export const ORMAWA_LIST: Ormawa[] = [
     ],
     recruitmentTitle: "Magang HMTI 2026",
     recruitmentDescription: "Magang HMTI 2026 merupakan kegiatan tahunan yang dilaksanakan oleh Badan Pengurus Harian Himpunan Mahasiswa Teknik Informatika (HMTI) Politeknik Negeri Batam, di masing-masing departemen untuk mengenalkan struktur, peran, serta alur kerja organisasi HMTI.",
-    recruitmentStartDate: "2026-10-23",
-    recruitmentEndDate: "2026-10-30",
-    recruitmentStatus: "closed",
+    recruitmentStartDate: "2026-11-23",
+    recruitmentEndDate: "2026-11-30",
+    recruitmentStatus: "comingSoon",
     gallery: ["/gallery/hmti/kegiatan-1.webp", "/gallery/hmti/kegiatan-2.webp", "/gallery/hmti/kegiatan-3.webp", "/gallery/hmti/kegiatan-4.webp", "/gallery/hmti/kegiatan-5.webp", "/gallery/hmti/kegiatan-6.webp", "/gallery/hmti/kegiatan-7.webp", "/gallery/hmti/kegiatan-8.webp"],
     skills: {
       leadership: 7,
