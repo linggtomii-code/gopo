@@ -332,7 +332,7 @@ export const ORMAWA_LIST: Ormawa[] = [
     instagram: "@immpbpolibatam",
     tiktok: "@immpbpolibatam",
     youtube: "@immpbpolibatam",
-    registrationLink: "https://forms.gle/nGNqvm8FJ2jDge718",
+    registrationLink: "https://linktr.ee/revitalisasikader2026",
     contactPerson: "+62 812-6191-1413 (Rivana Alwarid)"
   },
 
