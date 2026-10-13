@@ -615,7 +615,7 @@ export const ORMAWA_LIST: Ormawa[] = [
     recruitmentDescription: "-",
     recruitmentStartDate: "2026-10-16",
     recruitmentEndDate: "2026-11-04",
-    recruitmentStatus: "open",
+    recruitmentStatus: "comingSoon",
     gallery: ["/gallery/kop/kegiatan-1.webp", "/gallery/kop/kegiatan-2.webp", "/gallery/kop/kegiatan-3.webp", "/gallery/kop/kegiatan-4.webp", "/gallery/kop/kegiatan-5.webp"],
     skills: {
       communication: 5,
